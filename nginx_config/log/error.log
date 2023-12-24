@@ -1,0 +1,1827 @@
+2023/12/10 11:24:14 [notice] 25540#16536: using the "select" event method
+2023/12/10 11:24:14 [notice] 25540#16536: nginx/1.24.0
+2023/12/10 11:24:14 [notice] 25540#16536: start worker processes
+2023/12/10 11:24:14 [notice] 25540#16536: start worker process 10984
+2023/12/10 11:24:15 [notice] 10984#10600: nginx/1.24.0
+2023/12/10 11:24:15 [notice] 10984#10600: create thread 8424
+2023/12/10 11:24:15 [notice] 10984#10600: create thread 7796
+2023/12/10 11:24:15 [notice] 10984#10600: create thread 9368
+2023/12/10 11:24:15 [notice] 25540#16536: start worker process 20704
+2023/12/10 11:24:15 [notice] 20704#13188: nginx/1.24.0
+2023/12/10 11:24:15 [notice] 20704#13188: create thread 21704
+2023/12/10 11:24:15 [notice] 20704#13188: create thread 3316
+2023/12/10 11:24:15 [notice] 20704#13188: create thread 6412
+2023/12/10 11:24:15 [notice] 25540#16536: start worker process 1732
+2023/12/10 11:24:15 [notice] 1732#14960: nginx/1.24.0
+2023/12/10 11:24:15 [notice] 1732#14960: create thread 15836
+2023/12/10 11:24:15 [notice] 1732#14960: create thread 11472
+2023/12/10 11:24:15 [notice] 1732#14960: create thread 17844
+2023/12/10 11:24:15 [notice] 25540#16536: start worker process 2344
+2023/12/10 11:24:15 [notice] 2344#15224: nginx/1.24.0
+2023/12/10 11:24:15 [notice] 2344#15224: create thread 21336
+2023/12/10 11:24:15 [notice] 2344#15224: create thread 16736
+2023/12/10 11:24:15 [notice] 2344#15224: create thread 17612
+2023/12/10 11:24:15 [notice] 25540#16536: start worker process 23940
+2023/12/10 11:24:15 [notice] 23940#3552: nginx/1.24.0
+2023/12/10 11:24:15 [notice] 23940#3552: create thread 6748
+2023/12/10 11:24:15 [notice] 23940#3552: create thread 14748
+2023/12/10 11:24:15 [notice] 23940#3552: create thread 9240
+2023/12/10 11:24:15 [notice] 25540#16536: start worker process 22312
+2023/12/10 11:24:15 [notice] 22312#10884: nginx/1.24.0
+2023/12/10 11:24:15 [notice] 22312#10884: create thread 21900
+2023/12/10 11:24:15 [notice] 22312#10884: create thread 23168
+2023/12/10 11:24:15 [notice] 22312#10884: create thread 23236
+2023/12/10 11:24:15 [notice] 25540#16536: start worker process 19792
+2023/12/10 11:24:15 [notice] 19792#16452: nginx/1.24.0
+2023/12/10 11:24:15 [notice] 19792#16452: create thread 18136
+2023/12/10 11:24:15 [notice] 19792#16452: create thread 2396
+2023/12/10 11:24:15 [notice] 19792#16452: create thread 20764
+2023/12/10 11:24:15 [notice] 25540#16536: start worker process 18400
+2023/12/10 11:24:15 [notice] 18400#23852: nginx/1.24.0
+2023/12/10 11:24:15 [notice] 18400#23852: create thread 24692
+2023/12/10 11:24:15 [notice] 18400#23852: create thread 11796
+2023/12/10 11:24:15 [notice] 18400#23852: create thread 24040
+2023/12/10 11:25:12 [crit] 10984#8424: *1 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//a.htm" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", host: "localhost"
+2023/12/10 11:25:13 [error] 10984#8424: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://[::1]:7002/a.htm", host: "localhost"
+2023/12/10 11:25:13 [warn] 10984#8424: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://[::1]:7002/a.htm", host: "localhost"
+2023/12/10 11:25:14 [error] 10984#8424: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://127.0.0.1:7002/a.htm", host: "localhost"
+2023/12/10 11:25:14 [warn] 10984#8424: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://127.0.0.1:7002/a.htm", host: "localhost"
+2023/12/10 11:25:14 [crit] 10984#8424: *1 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:25:14 [error] 10984#8424: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:25:15 [notice] 10984#9368: http file cache: C:/tools/tmp/mock_cdn 0.000M, bsize: 4096
+2023/12/10 11:27:35 [crit] 10984#8424: *6 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//a.htm" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", host: "localhost"
+2023/12/10 11:27:36 [error] 10984#8424: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://127.0.0.1:7002/a.htm", host: "localhost"
+2023/12/10 11:27:36 [warn] 10984#8424: *6 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://127.0.0.1:7002/a.htm", host: "localhost"
+2023/12/10 11:27:37 [error] 10984#8424: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://[::1]:7002/a.htm", host: "localhost"
+2023/12/10 11:27:37 [warn] 10984#8424: *6 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://[::1]:7002/a.htm", host: "localhost"
+2023/12/10 11:27:37 [crit] 10984#8424: *6 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:27:37 [error] 10984#8424: *6 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:35:53 [crit] 10984#8424: *11 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//a.htm" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", host: "localhost"
+2023/12/10 11:35:54 [error] 10984#8424: *11 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://127.0.0.1:7002/a.htm", host: "localhost"
+2023/12/10 11:35:54 [warn] 10984#8424: *11 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://127.0.0.1:7002/a.htm", host: "localhost"
+2023/12/10 11:35:55 [error] 10984#8424: *11 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://[::1]:7002/a.htm", host: "localhost"
+2023/12/10 11:35:55 [warn] 10984#8424: *11 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://[::1]:7002/a.htm", host: "localhost"
+2023/12/10 11:35:55 [crit] 10984#8424: *11 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:35:55 [error] 10984#8424: *11 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:36:04 [crit] 10984#8424: *16 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//a.htm" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", host: "localhost"
+2023/12/10 11:36:04 [error] 10984#8424: *16 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://localhost/a.htm", host: "localhost"
+2023/12/10 11:36:04 [crit] 10984#8424: *16 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:36:04 [error] 10984#8424: *16 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:36:06 [crit] 10984#8424: *19 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//a.htm" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", host: "localhost"
+2023/12/10 11:36:07 [error] 10984#8424: *19 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://127.0.0.1:7002/a.htm", host: "localhost"
+2023/12/10 11:36:07 [warn] 10984#8424: *19 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://127.0.0.1:7002/a.htm", host: "localhost"
+2023/12/10 11:36:08 [error] 10984#8424: *19 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://[::1]:7002/a.htm", host: "localhost"
+2023/12/10 11:36:08 [warn] 10984#8424: *19 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://[::1]:7002/a.htm", host: "localhost"
+2023/12/10 11:36:08 [crit] 10984#8424: *19 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:36:08 [error] 10984#8424: *19 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:37:45 [notice] 18132#15476: using the "select" event method
+2023/12/10 11:37:45 [notice] 18132#15476: nginx/1.24.0
+2023/12/10 11:37:45 [notice] 18132#15476: start worker processes
+2023/12/10 11:37:45 [notice] 18132#15476: start worker process 11076
+2023/12/10 11:37:45 [notice] 11076#10964: nginx/1.24.0
+2023/12/10 11:37:45 [notice] 11076#10964: create thread 15512
+2023/12/10 11:37:45 [notice] 11076#10964: create thread 23468
+2023/12/10 11:37:45 [notice] 11076#10964: create thread 16888
+2023/12/10 11:37:45 [notice] 18132#15476: start worker process 17860
+2023/12/10 11:37:45 [notice] 17860#18844: nginx/1.24.0
+2023/12/10 11:37:45 [notice] 17860#18844: create thread 19656
+2023/12/10 11:37:45 [notice] 17860#18844: create thread 14292
+2023/12/10 11:37:45 [notice] 17860#18844: create thread 3260
+2023/12/10 11:37:45 [notice] 18132#15476: start worker process 22980
+2023/12/10 11:37:45 [notice] 22980#5644: nginx/1.24.0
+2023/12/10 11:37:45 [notice] 22980#5644: create thread 21808
+2023/12/10 11:37:45 [notice] 22980#5644: create thread 8384
+2023/12/10 11:37:45 [notice] 22980#5644: create thread 19700
+2023/12/10 11:37:45 [notice] 18132#15476: start worker process 11204
+2023/12/10 11:37:45 [notice] 11204#25536: nginx/1.24.0
+2023/12/10 11:37:45 [notice] 11204#25536: create thread 2532
+2023/12/10 11:37:45 [notice] 11204#25536: create thread 2208
+2023/12/10 11:37:45 [notice] 11204#25536: create thread 3564
+2023/12/10 11:37:45 [notice] 18132#15476: start worker process 21180
+2023/12/10 11:37:45 [notice] 21180#11260: nginx/1.24.0
+2023/12/10 11:37:45 [notice] 21180#11260: create thread 18868
+2023/12/10 11:37:45 [notice] 21180#11260: create thread 20528
+2023/12/10 11:37:45 [notice] 21180#11260: create thread 24924
+2023/12/10 11:37:45 [notice] 18132#15476: start worker process 1308
+2023/12/10 11:37:45 [notice] 1308#648: nginx/1.24.0
+2023/12/10 11:37:45 [notice] 1308#648: create thread 4448
+2023/12/10 11:37:45 [notice] 1308#648: create thread 12976
+2023/12/10 11:37:45 [notice] 1308#648: create thread 15648
+2023/12/10 11:37:45 [notice] 18132#15476: start worker process 20576
+2023/12/10 11:37:45 [notice] 20576#24280: nginx/1.24.0
+2023/12/10 11:37:45 [notice] 20576#24280: create thread 21164
+2023/12/10 11:37:45 [notice] 20576#24280: create thread 17056
+2023/12/10 11:37:45 [notice] 20576#24280: create thread 3788
+2023/12/10 11:37:45 [notice] 18132#15476: start worker process 11524
+2023/12/10 11:37:45 [notice] 11524#25188: nginx/1.24.0
+2023/12/10 11:37:45 [notice] 11524#25188: create thread 11060
+2023/12/10 11:37:45 [notice] 11524#25188: create thread 13800
+2023/12/10 11:37:45 [notice] 11524#25188: create thread 18176
+2023/12/10 11:37:47 [crit] 11076#15512: *1 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//a.htm" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", host: "localhost"
+2023/12/10 11:37:48 [error] 11076#15512: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://[::1]:7002/a.htm", host: "localhost"
+2023/12/10 11:37:48 [warn] 11076#15512: *1 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://[::1]:7002/a.htm", host: "localhost"
+2023/12/10 11:37:49 [crit] 11076#15512: *3 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//a.htm" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", host: "localhost"
+2023/12/10 11:37:50 [crit] 11076#15512: *4 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//a.htm" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", host: "localhost"
+2023/12/10 11:37:51 [error] 11076#15512: *4 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://127.0.0.1:7002/a.htm", host: "localhost"
+2023/12/10 11:37:51 [warn] 11076#15512: *4 upstream server temporarily disabled while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://127.0.0.1:7002/a.htm", host: "localhost"
+2023/12/10 11:37:51 [error] 11076#15512: *4 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /a.htm HTTP/1.1", upstream: "http://localhost/a.htm", host: "localhost"
+2023/12/10 11:37:52 [crit] 11076#15512: *4 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:37:52 [error] 11076#15512: *4 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/a.htm"
+2023/12/10 11:38:45 [notice] 11076#16888: http file cache: C:/tools/tmp/mock_cdn 0.000M, bsize: 4096
+2023/12/10 04:00:59 [emerg] 1#1: "proxy_cache" zone "my_cache" is unknown in /etc/nginx/nginx.conf:80
+2023/12/10 04:03:18 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 04:03:18 [notice] 1#1: using the "epoll" event method
+2023/12/10 04:03:18 [notice] 1#1: nginx/1.25.3
+2023/12/10 04:03:18 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 04:03:18 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 04:03:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 04:03:18 [notice] 1#1: start worker processes
+2023/12/10 04:03:18 [notice] 1#1: start worker process 29
+2023/12/10 04:03:18 [notice] 1#1: start worker process 30
+2023/12/10 04:03:18 [notice] 1#1: start worker process 31
+2023/12/10 04:03:18 [notice] 1#1: start worker process 32
+2023/12/10 04:03:18 [notice] 1#1: start cache manager process 33
+2023/12/10 04:03:18 [notice] 1#1: start cache loader process 34
+2023/12/10 04:04:18 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 04:04:18 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 04:04:18 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 04:04:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 04:05:31 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://127.0.0.1:7002/counter", host: "localhost"
+2023/12/10 04:05:31 [warn] 30#30: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://127.0.0.1:7002/counter", host: "localhost"
+2023/12/10 04:05:31 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://127.0.0.1:7002/counter", host: "localhost"
+2023/12/10 04:05:31 [warn] 30#30: *1 upstream server temporarily disabled while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://127.0.0.1:7002/counter", host: "localhost"
+2023/12/10 04:05:31 [error] 30#30: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://127.0.0.1:7002/counter", host: "localhost"
+2023/12/10 04:05:31 [error] 30#30: *1 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 04:05:31 [error] 30#30: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 04:12:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 04:12:02 [notice] 29#29: gracefully shutting down
+2023/12/10 04:12:02 [notice] 30#30: gracefully shutting down
+2023/12/10 04:12:02 [notice] 31#31: gracefully shutting down
+2023/12/10 04:12:02 [notice] 32#32: gracefully shutting down
+2023/12/10 04:12:02 [notice] 33#33: exiting
+2023/12/10 04:12:02 [notice] 29#29: exiting
+2023/12/10 04:12:02 [notice] 30#30: exiting
+2023/12/10 04:12:02 [notice] 31#31: exiting
+2023/12/10 04:12:02 [notice] 32#32: exiting
+2023/12/10 04:12:02 [notice] 29#29: exit
+2023/12/10 04:12:02 [notice] 30#30: exit
+2023/12/10 04:12:02 [notice] 31#31: exit
+2023/12/10 04:12:02 [notice] 32#32: exit
+2023/12/10 04:12:02 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 04:12:02 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 04:12:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 04:12:02 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 04:12:02 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 04:12:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 04:12:02 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 04:12:02 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 04:12:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 04:12:02 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 04:12:02 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 04:12:02 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 04:12:02 [notice] 1#1: exit
+2023/12/10 04:20:53 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 04:20:53 [notice] 1#1: using the "epoll" event method
+2023/12/10 04:20:53 [notice] 1#1: nginx/1.25.3
+2023/12/10 04:20:53 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 04:20:53 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 04:20:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 04:20:53 [notice] 1#1: start worker processes
+2023/12/10 04:20:53 [notice] 1#1: start worker process 29
+2023/12/10 04:20:53 [notice] 1#1: start worker process 30
+2023/12/10 04:20:53 [notice] 1#1: start worker process 31
+2023/12/10 04:20:53 [notice] 1#1: start worker process 32
+2023/12/10 04:20:53 [notice] 1#1: start cache manager process 33
+2023/12/10 04:20:53 [notice] 1#1: start cache loader process 34
+2023/12/10 04:21:53 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 04:21:53 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 04:21:53 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 04:21:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 04:58:52 [error] 31#31: *960 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:58:52 [error] 31#31: *960 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:20 [error] 32#32: *964 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:20 [error] 32#32: *964 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:30 [error] 32#32: *966 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:30 [error] 32#32: *966 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:37 [error] 32#32: *968 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:37 [error] 32#32: *968 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:44 [error] 32#32: *970 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:44 [error] 32#32: *970 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:51 [error] 32#32: *972 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:51 [error] 32#32: *972 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:58 [error] 32#32: *974 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:58 [error] 32#32: *974 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 04:59:59 [error] 32#32: *976 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://192.168.65.2:7002/counter", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 04:59:59 [error] 32#32: *976 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://192.168.65.2:7002/counter", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 05:13:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 05:13:18 [notice] 29#29: gracefully shutting down
+2023/12/10 05:13:18 [notice] 30#30: gracefully shutting down
+2023/12/10 05:13:18 [notice] 30#30: exiting
+2023/12/10 05:13:18 [notice] 31#31: gracefully shutting down
+2023/12/10 05:13:18 [notice] 33#33: exiting
+2023/12/10 05:13:18 [notice] 32#32: gracefully shutting down
+2023/12/10 05:13:18 [notice] 29#29: exiting
+2023/12/10 05:13:18 [notice] 30#30: exit
+2023/12/10 05:13:18 [notice] 31#31: exiting
+2023/12/10 05:13:18 [notice] 32#32: exiting
+2023/12/10 05:13:18 [notice] 29#29: exit
+2023/12/10 05:13:18 [notice] 31#31: exit
+2023/12/10 05:13:18 [notice] 32#32: exit
+2023/12/10 05:13:18 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 05:13:18 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 05:13:18 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 05:13:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:13:18 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 05:13:18 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 05:13:18 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 05:13:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:13:18 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 05:13:18 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 05:13:18 [notice] 1#1: exit
+2023/12/10 05:13:27 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 05:13:27 [notice] 1#1: using the "epoll" event method
+2023/12/10 05:13:27 [notice] 1#1: nginx/1.25.3
+2023/12/10 05:13:27 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 05:13:27 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 05:13:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 05:13:27 [notice] 1#1: start worker processes
+2023/12/10 05:13:27 [notice] 1#1: start worker process 29
+2023/12/10 05:13:27 [notice] 1#1: start worker process 30
+2023/12/10 05:13:27 [notice] 1#1: start worker process 31
+2023/12/10 05:13:27 [notice] 1#1: start worker process 32
+2023/12/10 05:13:27 [notice] 1#1: start cache manager process 33
+2023/12/10 05:13:27 [notice] 1#1: start cache loader process 34
+2023/12/10 05:14:27 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 05:14:27 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 05:14:27 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 05:14:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:18:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 05:18:33 [notice] 29#29: gracefully shutting down
+2023/12/10 05:18:33 [notice] 30#30: gracefully shutting down
+2023/12/10 05:18:33 [notice] 30#30: exiting
+2023/12/10 05:18:33 [notice] 32#32: gracefully shutting down
+2023/12/10 05:18:33 [notice] 32#32: exiting
+2023/12/10 05:18:33 [notice] 33#33: exiting
+2023/12/10 05:18:33 [notice] 31#31: gracefully shutting down
+2023/12/10 05:18:33 [notice] 31#31: exiting
+2023/12/10 05:18:33 [notice] 29#29: exiting
+2023/12/10 05:18:33 [notice] 30#30: exit
+2023/12/10 05:18:33 [notice] 32#32: exit
+2023/12/10 05:18:33 [notice] 31#31: exit
+2023/12/10 05:18:33 [notice] 29#29: exit
+2023/12/10 05:18:33 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 05:18:33 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 05:18:33 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 05:18:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:18:33 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 05:18:33 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 05:18:33 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 05:18:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:18:33 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 05:18:33 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 05:18:33 [notice] 1#1: exit
+2023/12/10 05:18:40 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 05:18:40 [notice] 1#1: using the "epoll" event method
+2023/12/10 05:18:40 [notice] 1#1: nginx/1.25.3
+2023/12/10 05:18:40 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 05:18:40 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 05:18:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 05:18:40 [notice] 1#1: start worker processes
+2023/12/10 05:18:40 [notice] 1#1: start worker process 29
+2023/12/10 05:18:40 [notice] 1#1: start worker process 30
+2023/12/10 05:18:40 [notice] 1#1: start worker process 31
+2023/12/10 05:18:40 [notice] 1#1: start worker process 32
+2023/12/10 05:18:40 [notice] 1#1: start cache manager process 33
+2023/12/10 05:18:40 [notice] 1#1: start cache loader process 34
+2023/12/10 05:19:40 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 05:19:40 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 05:19:40 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 05:19:40 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:34:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 05:34:19 [notice] 30#30: gracefully shutting down
+2023/12/10 05:34:19 [notice] 30#30: exiting
+2023/12/10 05:34:19 [notice] 29#29: gracefully shutting down
+2023/12/10 05:34:19 [notice] 29#29: exiting
+2023/12/10 05:34:19 [notice] 31#31: gracefully shutting down
+2023/12/10 05:34:19 [notice] 31#31: exiting
+2023/12/10 05:34:19 [notice] 33#33: exiting
+2023/12/10 05:34:19 [notice] 32#32: gracefully shutting down
+2023/12/10 05:34:19 [notice] 30#30: exit
+2023/12/10 05:34:19 [notice] 29#29: exit
+2023/12/10 05:34:19 [notice] 31#31: exit
+2023/12/10 05:34:19 [notice] 32#32: exiting
+2023/12/10 05:34:19 [notice] 32#32: exit
+2023/12/10 05:34:19 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 05:34:19 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 05:34:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:34:19 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 05:34:19 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 05:34:19 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 05:34:19 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 05:34:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:34:19 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 05:34:19 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 05:34:19 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 05:34:19 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 05:34:19 [notice] 1#1: exit
+2023/12/10 05:34:29 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 05:34:29 [notice] 1#1: using the "epoll" event method
+2023/12/10 05:34:29 [notice] 1#1: nginx/1.25.3
+2023/12/10 05:34:29 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 05:34:29 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 05:34:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 05:34:29 [notice] 1#1: start worker processes
+2023/12/10 05:34:29 [notice] 1#1: start worker process 30
+2023/12/10 05:34:29 [notice] 1#1: start worker process 31
+2023/12/10 05:34:29 [notice] 1#1: start worker process 32
+2023/12/10 05:34:29 [notice] 1#1: start worker process 33
+2023/12/10 05:34:29 [notice] 1#1: start cache manager process 34
+2023/12/10 05:34:29 [notice] 1#1: start cache loader process 35
+2023/12/10 05:35:29 [notice] 35#35: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 05:35:29 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/12/10 05:35:29 [notice] 1#1: cache loader process 35 exited with code 0
+2023/12/10 05:35:29 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:36:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 05:36:52 [notice] 31#31: gracefully shutting down
+2023/12/10 05:36:52 [notice] 31#31: exiting
+2023/12/10 05:36:52 [notice] 30#30: gracefully shutting down
+2023/12/10 05:36:52 [notice] 32#32: gracefully shutting down
+2023/12/10 05:36:52 [notice] 32#32: exiting
+2023/12/10 05:36:52 [notice] 33#33: gracefully shutting down
+2023/12/10 05:36:52 [notice] 34#34: exiting
+2023/12/10 05:36:52 [notice] 31#31: exit
+2023/12/10 05:36:52 [notice] 30#30: exiting
+2023/12/10 05:36:52 [notice] 32#32: exit
+2023/12/10 05:36:52 [notice] 33#33: exiting
+2023/12/10 05:36:52 [notice] 30#30: exit
+2023/12/10 05:36:52 [notice] 33#33: exit
+2023/12/10 05:36:52 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 05:36:52 [notice] 1#1: cache manager process 34 exited with code 0
+2023/12/10 05:36:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:36:52 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 05:36:52 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 05:36:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:36:52 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 05:36:52 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 05:36:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:36:52 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 05:36:52 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 05:36:52 [notice] 1#1: worker process 33 exited with code 0
+2023/12/10 05:36:52 [notice] 1#1: exit
+2023/12/10 05:36:58 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 05:36:58 [notice] 1#1: using the "epoll" event method
+2023/12/10 05:36:58 [notice] 1#1: nginx/1.25.3
+2023/12/10 05:36:58 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 05:36:58 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 05:36:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 05:36:58 [notice] 1#1: start worker processes
+2023/12/10 05:36:58 [notice] 1#1: start worker process 29
+2023/12/10 05:36:58 [notice] 1#1: start worker process 30
+2023/12/10 05:36:58 [notice] 1#1: start worker process 31
+2023/12/10 05:36:58 [notice] 1#1: start worker process 32
+2023/12/10 05:36:58 [notice] 1#1: start cache manager process 33
+2023/12/10 05:36:58 [notice] 1#1: start cache loader process 34
+2023/12/10 05:37:58 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 05:37:58 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 05:37:58 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 05:37:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:44:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 05:44:41 [notice] 29#29: gracefully shutting down
+2023/12/10 05:44:41 [notice] 30#30: gracefully shutting down
+2023/12/10 05:44:41 [notice] 32#32: gracefully shutting down
+2023/12/10 05:44:41 [notice] 31#31: gracefully shutting down
+2023/12/10 05:44:41 [notice] 33#33: exiting
+2023/12/10 05:44:41 [notice] 29#29: exiting
+2023/12/10 05:44:41 [notice] 30#30: exiting
+2023/12/10 05:44:41 [notice] 32#32: exiting
+2023/12/10 05:44:41 [notice] 31#31: exiting
+2023/12/10 05:44:41 [notice] 29#29: exit
+2023/12/10 05:44:41 [notice] 30#30: exit
+2023/12/10 05:44:41 [notice] 32#32: exit
+2023/12/10 05:44:41 [notice] 31#31: exit
+2023/12/10 05:44:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 05:44:41 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 05:44:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:44:41 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 05:44:41 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 05:44:41 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 05:44:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:44:41 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 05:44:41 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 05:44:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 05:44:41 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 05:44:41 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 05:44:41 [notice] 1#1: exit
+2023/12/10 05:44:47 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 05:44:47 [notice] 1#1: using the "epoll" event method
+2023/12/10 05:44:47 [notice] 1#1: nginx/1.25.3
+2023/12/10 05:44:47 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 05:44:47 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 05:44:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 05:44:47 [notice] 1#1: start worker processes
+2023/12/10 05:44:47 [notice] 1#1: start worker process 29
+2023/12/10 05:44:47 [notice] 1#1: start worker process 30
+2023/12/10 05:44:47 [notice] 1#1: start worker process 31
+2023/12/10 05:44:47 [notice] 1#1: start worker process 32
+2023/12/10 05:44:47 [notice] 1#1: start cache manager process 33
+2023/12/10 05:44:47 [notice] 1#1: start cache loader process 34
+2023/12/10 05:45:47 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 05:45:47 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 05:45:47 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 05:45:48 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:03:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 06:03:12 [notice] 32#32: gracefully shutting down
+2023/12/10 06:03:12 [notice] 32#32: exiting
+2023/12/10 06:03:12 [notice] 29#29: gracefully shutting down
+2023/12/10 06:03:12 [notice] 31#31: gracefully shutting down
+2023/12/10 06:03:12 [notice] 30#30: gracefully shutting down
+2023/12/10 06:03:12 [notice] 33#33: exiting
+2023/12/10 06:03:12 [notice] 32#32: exit
+2023/12/10 06:03:12 [notice] 29#29: exiting
+2023/12/10 06:03:12 [notice] 31#31: exiting
+2023/12/10 06:03:12 [notice] 30#30: exiting
+2023/12/10 06:03:12 [notice] 29#29: exit
+2023/12/10 06:03:12 [notice] 31#31: exit
+2023/12/10 06:03:12 [notice] 30#30: exit
+2023/12/10 06:03:12 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 06:03:12 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 06:03:12 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 06:03:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:03:12 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 06:03:12 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 06:03:12 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 06:03:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:03:12 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 06:03:12 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 06:03:12 [notice] 1#1: exit
+2023/12/10 06:03:19 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 06:03:19 [notice] 1#1: using the "epoll" event method
+2023/12/10 06:03:19 [notice] 1#1: nginx/1.25.3
+2023/12/10 06:03:19 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 06:03:19 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 06:03:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 06:03:19 [notice] 1#1: start worker processes
+2023/12/10 06:03:19 [notice] 1#1: start worker process 29
+2023/12/10 06:03:19 [notice] 1#1: start worker process 30
+2023/12/10 06:03:19 [notice] 1#1: start worker process 31
+2023/12/10 06:03:19 [notice] 1#1: start worker process 32
+2023/12/10 06:03:19 [notice] 1#1: start cache manager process 33
+2023/12/10 06:03:19 [notice] 1#1: start cache loader process 34
+2023/12/10 06:04:19 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 06:04:19 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 06:04:19 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 06:04:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:06:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 06:06:58 [notice] 31#31: gracefully shutting down
+2023/12/10 06:06:58 [notice] 29#29: gracefully shutting down
+2023/12/10 06:06:58 [notice] 29#29: exiting
+2023/12/10 06:06:58 [notice] 30#30: gracefully shutting down
+2023/12/10 06:06:58 [notice] 32#32: gracefully shutting down
+2023/12/10 06:06:58 [notice] 32#32: exiting
+2023/12/10 06:06:58 [notice] 33#33: exiting
+2023/12/10 06:06:58 [notice] 31#31: exiting
+2023/12/10 06:06:58 [notice] 29#29: exit
+2023/12/10 06:06:58 [notice] 30#30: exiting
+2023/12/10 06:06:58 [notice] 32#32: exit
+2023/12/10 06:06:58 [notice] 31#31: exit
+2023/12/10 06:06:58 [notice] 30#30: exit
+2023/12/10 06:06:58 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 06:06:58 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 06:06:58 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 06:06:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:06:58 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 06:06:58 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 06:06:58 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 06:06:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:06:58 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 06:06:58 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 06:06:58 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 06:06:58 [notice] 1#1: exit
+2023/12/10 06:07:08 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 06:07:08 [notice] 1#1: using the "epoll" event method
+2023/12/10 06:07:08 [notice] 1#1: nginx/1.25.3
+2023/12/10 06:07:08 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 06:07:08 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 06:07:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 06:07:08 [notice] 1#1: start worker processes
+2023/12/10 06:07:08 [notice] 1#1: start worker process 30
+2023/12/10 06:07:08 [notice] 1#1: start worker process 31
+2023/12/10 06:07:08 [notice] 1#1: start worker process 32
+2023/12/10 06:07:08 [notice] 1#1: start worker process 33
+2023/12/10 06:07:08 [notice] 1#1: start cache manager process 34
+2023/12/10 06:07:08 [notice] 1#1: start cache loader process 35
+2023/12/10 06:08:08 [notice] 35#35: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 06:08:08 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/12/10 06:08:08 [notice] 1#1: cache loader process 35 exited with code 0
+2023/12/10 06:08:08 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:08:19 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://192.168.65.2:7002/counter", host: "localhost"
+2023/12/10 06:08:19 [error] 30#30: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://192.168.65.2:7002/counter", host: "localhost"
+2023/12/10 06:08:58 [error] 32#32: *4 open() "/etc/nginx/html/_next/static/chunks/pages/counter-94d6cf70ee374eb5.js" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/pages/counter-94d6cf70ee374eb5.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 06:08:58 [error] 33#33: *5 open() "/etc/nginx/html/_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 06:08:58 [error] 30#30: *7 open() "/etc/nginx/html/_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 06:10:20 [error] 30#30: *8 open() "/etc/nginx/html/_next/static/chunks/pages/counter-94d6cf70ee374eb5.js" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/pages/counter-94d6cf70ee374eb5.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 06:10:20 [error] 30#30: *9 open() "/etc/nginx/html/_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 06:10:20 [error] 30#30: *9 open() "/etc/nginx/html/_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 06:12:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 06:12:52 [notice] 30#30: gracefully shutting down
+2023/12/10 06:12:52 [notice] 32#32: gracefully shutting down
+2023/12/10 06:12:52 [notice] 31#31: gracefully shutting down
+2023/12/10 06:12:52 [notice] 33#33: gracefully shutting down
+2023/12/10 06:12:52 [notice] 34#34: exiting
+2023/12/10 06:12:52 [notice] 30#30: exiting
+2023/12/10 06:12:52 [notice] 32#32: exiting
+2023/12/10 06:12:52 [notice] 31#31: exiting
+2023/12/10 06:12:52 [notice] 33#33: exiting
+2023/12/10 06:12:52 [notice] 30#30: exit
+2023/12/10 06:12:52 [notice] 32#32: exit
+2023/12/10 06:12:52 [notice] 31#31: exit
+2023/12/10 06:12:52 [notice] 33#33: exit
+2023/12/10 06:12:52 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 06:12:52 [notice] 1#1: cache manager process 34 exited with code 0
+2023/12/10 06:12:52 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 06:12:52 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 06:12:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:12:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:12:52 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 06:12:52 [notice] 1#1: worker process 33 exited with code 0
+2023/12/10 06:12:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:12:52 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 06:12:52 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 06:12:52 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 06:12:52 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 06:12:52 [notice] 1#1: exit
+2023/12/10 06:13:05 [emerg] 1#1: unknown directive "proxy_cache_log" in /etc/nginx/nginx.conf:34
+2023/12/10 14:13:16 [crit] 11076#15512: *9 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//counter" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 14:13:16 [crit] 11076#15512: *9 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/pages/counter-94d6cf70ee374eb5.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/pages/counter-94d6cf70ee374eb5.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:13:16 [crit] 11076#15512: *10 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:13:16 [crit] 11076#15512: *10 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:14:29 [crit] 11076#15512: *16 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//counter" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 14:14:58 [crit] 11076#15512: *20 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//counter" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:14:58 [crit] 11076#15512: *20 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/pages/counter-94d6cf70ee374eb5.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/pages/counter-94d6cf70ee374eb5.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:14:58 [crit] 11076#15512: *21 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:14:58 [crit] 11076#15512: *20 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:15:00 [crit] 11076#15512: *20 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//counter" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:15 [crit] 11076#15512: *28 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//counter" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 14:16:15 [crit] 11076#15512: *28 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/webpack-76310e0fbc35a90c.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/webpack-76310e0fbc35a90c.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:15 [crit] 11076#15512: *29 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/framework-0ff1981415a3154d.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/framework-0ff1981415a3154d.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:15 [crit] 11076#15512: *28 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/main-5be387e46a50ea17.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/main-5be387e46a50ea17.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:15 [crit] 11076#15512: *29 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/pages/_app-07a3e531759ac340.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/pages/_app-07a3e531759ac340.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:15 [crit] 11076#15512: *29 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/pages/counter-94d6cf70ee374eb5.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/pages/counter-94d6cf70ee374eb5.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:15 [crit] 11076#15512: *28 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:15 [crit] 11076#15512: *28 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:15 [crit] 11076#15512: *28 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/413.d2d31338e674c790.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/413.d2d31338e674c790.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:15 [crit] 11076#15512: *28 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:35 [crit] 11076#15512: *44 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//counter" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 14:16:36 [crit] 11076#15512: *44 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/webpack-76310e0fbc35a90c.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/webpack-76310e0fbc35a90c.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:36 [crit] 11076#15512: *46 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/framework-0ff1981415a3154d.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/framework-0ff1981415a3154d.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:36 [crit] 11076#15512: *44 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/main-5be387e46a50ea17.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/main-5be387e46a50ea17.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:36 [crit] 11076#15512: *46 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/pages/_app-07a3e531759ac340.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/pages/_app-07a3e531759ac340.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:36 [crit] 11076#15512: *46 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/pages/counter-94d6cf70ee374eb5.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/pages/counter-94d6cf70ee374eb5.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:36 [crit] 11076#15512: *44 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_buildManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:36 [crit] 11076#15512: *44 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/JV-E8vczAE0km4zsc5goj/_ssgManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:36 [crit] 11076#15512: *44 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//_next/static/chunks/413.d2d31338e674c790.js" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /_next/static/chunks/413.d2d31338e674c790.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 14:16:50 [crit] 11076#15512: *59 GetFileAttributesEx() "C:\tools\nginx-1.24.0/htmlC:/tools/tmp/mock_cdn//counter" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 14:17:19 [notice] 18132#15476: worker process 11524 exited with code 1
+2023/12/10 14:17:19 [notice] 18132#15476: start worker process 13600
+2023/12/10 14:17:19 [notice] 13600#16992: nginx/1.24.0
+2023/12/10 14:17:19 [notice] 13600#16992: create thread 19436
+2023/12/10 14:17:19 [notice] 13600#16992: create thread 20432
+2023/12/10 14:17:19 [notice] 13600#16992: create thread 9412
+2023/12/10 14:17:21 [notice] 18132#15476: worker process 13600 exited with code 1
+2023/12/10 14:17:21 [notice] 18132#15476: start worker process 16696
+2023/12/10 14:17:21 [notice] 16696#22940: nginx/1.24.0
+2023/12/10 14:17:21 [notice] 16696#22940: create thread 11092
+2023/12/10 14:17:21 [notice] 16696#22940: create thread 23728
+2023/12/10 14:17:21 [notice] 16696#22940: create thread 9932
+2023/12/10 14:17:23 [notice] 18132#15476: worker process 20576 exited with code 1
+2023/12/10 14:17:23 [notice] 18132#15476: start worker process 11608
+2023/12/10 14:17:23 [notice] 11608#1356: nginx/1.24.0
+2023/12/10 14:17:23 [notice] 11608#1356: create thread 5876
+2023/12/10 14:17:23 [notice] 11608#1356: create thread 9016
+2023/12/10 14:17:23 [notice] 11608#1356: create thread 8808
+2023/12/10 14:17:25 [notice] 18132#15476: worker process 11076 exited with code 1
+2023/12/10 14:17:25 [notice] 18132#15476: start worker process 7400
+2023/12/10 14:17:25 [notice] 7400#19960: nginx/1.24.0
+2023/12/10 14:17:25 [notice] 7400#19960: create thread 11096
+2023/12/10 14:17:25 [notice] 7400#19960: create thread 9944
+2023/12/10 14:17:25 [notice] 7400#19960: create thread 15220
+2023/12/10 14:17:27 [notice] 18132#15476: worker process 11204 exited with code 1
+2023/12/10 14:17:27 [notice] 18132#15476: start worker process 1580
+2023/12/10 14:17:27 [notice] 1580#2400: nginx/1.24.0
+2023/12/10 14:17:27 [notice] 1580#2400: create thread 24316
+2023/12/10 14:17:27 [notice] 1580#2400: create thread 15956
+2023/12/10 14:17:27 [notice] 1580#2400: create thread 4628
+2023/12/10 14:17:30 [notice] 18132#15476: worker process 22980 exited with code 1
+2023/12/10 14:17:30 [notice] 18132#15476: start worker process 21548
+2023/12/10 14:17:30 [notice] 21548#25184: nginx/1.24.0
+2023/12/10 14:17:30 [notice] 21548#25184: create thread 4536
+2023/12/10 14:17:30 [notice] 21548#25184: create thread 18944
+2023/12/10 14:17:30 [notice] 21548#25184: create thread 1924
+2023/12/10 06:18:26 [emerg] 1#1: unknown directive "proxy_cache_log" in /etc/nginx/nginx.conf:34
+2023/12/10 06:28:55 [emerg] 1#1: unknown directive "proxy_cache_log" in /etc/nginx/nginx.conf:34
+2023/12/10 06:29:40 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 06:29:40 [notice] 1#1: using the "epoll" event method
+2023/12/10 06:29:40 [notice] 1#1: nginx/1.25.3
+2023/12/10 06:29:40 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 06:29:40 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 06:29:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 06:29:40 [notice] 1#1: start worker processes
+2023/12/10 06:29:40 [notice] 1#1: start worker process 29
+2023/12/10 06:29:40 [notice] 1#1: start worker process 30
+2023/12/10 06:29:40 [notice] 1#1: start worker process 31
+2023/12/10 06:29:40 [notice] 1#1: start worker process 32
+2023/12/10 06:29:40 [notice] 1#1: start cache manager process 33
+2023/12/10 06:29:40 [notice] 1#1: start cache loader process 34
+2023/12/10 06:30:40 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 06:30:40 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 06:30:40 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 06:30:40 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:30:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 06:30:49 [notice] 29#29: gracefully shutting down
+2023/12/10 06:30:49 [notice] 30#30: gracefully shutting down
+2023/12/10 06:30:49 [notice] 31#31: gracefully shutting down
+2023/12/10 06:30:49 [notice] 32#32: gracefully shutting down
+2023/12/10 06:30:49 [notice] 33#33: exiting
+2023/12/10 06:30:49 [notice] 29#29: exiting
+2023/12/10 06:30:49 [notice] 30#30: exiting
+2023/12/10 06:30:49 [notice] 31#31: exiting
+2023/12/10 06:30:49 [notice] 32#32: exiting
+2023/12/10 06:30:49 [notice] 29#29: exit
+2023/12/10 06:30:49 [notice] 30#30: exit
+2023/12/10 06:30:49 [notice] 31#31: exit
+2023/12/10 06:30:49 [notice] 32#32: exit
+2023/12/10 06:30:49 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 06:30:49 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 06:30:49 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:30:49 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 06:30:49 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 06:30:49 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 06:30:49 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 06:30:49 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 06:30:49 [notice] 1#1: exit
+2023/12/10 06:31:10 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 06:31:10 [notice] 1#1: using the "epoll" event method
+2023/12/10 06:31:10 [notice] 1#1: nginx/1.25.3
+2023/12/10 06:31:10 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 06:31:10 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 06:31:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 06:31:10 [notice] 1#1: start worker processes
+2023/12/10 06:31:10 [notice] 1#1: start worker process 29
+2023/12/10 06:31:10 [notice] 1#1: start worker process 30
+2023/12/10 06:31:10 [notice] 1#1: start worker process 31
+2023/12/10 06:31:10 [notice] 1#1: start worker process 32
+2023/12/10 06:31:10 [notice] 1#1: start cache manager process 33
+2023/12/10 06:31:10 [notice] 1#1: start cache loader process 34
+2023/12/10 06:31:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 06:31:54 [notice] 30#30: gracefully shutting down
+2023/12/10 06:31:54 [notice] 29#29: gracefully shutting down
+2023/12/10 06:31:54 [notice] 31#31: gracefully shutting down
+2023/12/10 06:31:54 [notice] 31#31: exiting
+2023/12/10 06:31:54 [notice] 33#33: exiting
+2023/12/10 06:31:54 [notice] 31#31: exit
+2023/12/10 06:31:54 [notice] 32#32: gracefully shutting down
+2023/12/10 06:31:54 [notice] 32#32: exiting
+2023/12/10 06:31:54 [notice] 34#34: exiting
+2023/12/10 06:31:54 [notice] 30#30: exiting
+2023/12/10 06:31:54 [notice] 29#29: exiting
+2023/12/10 06:31:54 [notice] 32#32: exit
+2023/12/10 06:31:54 [notice] 30#30: exit
+2023/12/10 06:31:54 [notice] 29#29: exit
+2023/12/10 06:31:54 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 06:31:54 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 06:31:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:31:54 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 06:31:54 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 06:31:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:31:54 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 06:31:54 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 06:31:54 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 06:31:54 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 06:31:54 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 06:31:54 [notice] 1#1: exit
+2023/12/10 06:32:27 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 06:32:27 [notice] 1#1: using the "epoll" event method
+2023/12/10 06:32:27 [notice] 1#1: nginx/1.25.3
+2023/12/10 06:32:27 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 06:32:27 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 06:32:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 06:32:27 [notice] 1#1: start worker processes
+2023/12/10 06:32:27 [notice] 1#1: start worker process 29
+2023/12/10 06:32:27 [notice] 1#1: start worker process 30
+2023/12/10 06:32:27 [notice] 1#1: start worker process 31
+2023/12/10 06:32:27 [notice] 1#1: start worker process 32
+2023/12/10 06:32:27 [notice] 1#1: start cache manager process 33
+2023/12/10 06:32:27 [notice] 1#1: start cache loader process 34
+2023/12/10 06:32:37 [error] 29#29: *1 open() "/etc/nginx/html/_next/static/i3W6w9tspq_bY6QbbUwop/_buildManifest.js" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/static/i3W6w9tspq_bY6QbbUwop/_buildManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 06:32:37 [error] 30#30: *3 open() "/etc/nginx/html/_next/static/i3W6w9tspq_bY6QbbUwop/_ssgManifest.js" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/static/i3W6w9tspq_bY6QbbUwop/_ssgManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 06:32:44 [error] 30#30: *3 open() "/etc/nginx/html/_next/static/i3W6w9tspq_bY6QbbUwop/_buildManifest.js" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/static/i3W6w9tspq_bY6QbbUwop/_buildManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 06:32:44 [error] 29#29: *1 open() "/etc/nginx/html/_next/static/i3W6w9tspq_bY6QbbUwop/_ssgManifest.js" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /_next/static/i3W6w9tspq_bY6QbbUwop/_ssgManifest.js HTTP/1.1", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 06:33:27 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 06:33:27 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 06:33:27 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 06:33:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 06:34:40 [error] 31#31: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://192.168.65.2:7002/counter", host: "localhost"
+2023/12/10 06:34:40 [error] 31#31: *5 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://192.168.65.2:7002/counter", host: "localhost"
+2023/12/10 08:39:48 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 08:39:48 [notice] 1#1: using the "epoll" event method
+2023/12/10 08:39:48 [notice] 1#1: nginx/1.25.3
+2023/12/10 08:39:48 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 08:39:48 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 08:39:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 08:39:48 [notice] 1#1: start worker processes
+2023/12/10 08:39:48 [notice] 1#1: start worker process 29
+2023/12/10 08:39:48 [notice] 1#1: start worker process 30
+2023/12/10 08:39:48 [notice] 1#1: start worker process 31
+2023/12/10 08:39:48 [notice] 1#1: start worker process 32
+2023/12/10 08:39:48 [notice] 1#1: start cache manager process 33
+2023/12/10 08:39:48 [notice] 1#1: start cache loader process 34
+2023/12/10 08:40:48 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 08:40:48 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 08:40:48 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 08:40:48 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 09:01:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 09:01:55 [notice] 29#29: gracefully shutting down
+2023/12/10 09:01:55 [notice] 30#30: gracefully shutting down
+2023/12/10 09:01:55 [notice] 30#30: exiting
+2023/12/10 09:01:55 [notice] 32#32: gracefully shutting down
+2023/12/10 09:01:55 [notice] 32#32: exiting
+2023/12/10 09:01:55 [notice] 31#31: gracefully shutting down
+2023/12/10 09:01:55 [notice] 33#33: exiting
+2023/12/10 09:01:55 [notice] 29#29: exiting
+2023/12/10 09:01:55 [notice] 30#30: exit
+2023/12/10 09:01:55 [notice] 32#32: exit
+2023/12/10 09:01:55 [notice] 31#31: exiting
+2023/12/10 09:01:55 [notice] 31#31: exit
+2023/12/10 09:01:55 [notice] 29#29: exit
+2023/12/10 09:01:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 09:01:55 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 09:01:55 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 09:01:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 09:01:55 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 09:01:55 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 09:01:55 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 09:01:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 09:01:55 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 09:01:55 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 09:01:55 [notice] 1#1: exit
+2023/12/10 09:02:07 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/12/10 09:07:25 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:6
+2023/12/10 09:08:26 [emerg] 1#1: open() "/etc/nginx/proxy_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:11
+2023/12/10 09:13:25 [emerg] 1#1: no "events" section in configuration
+2023/12/10 09:18:58 [emerg] 1#1: no "events" section in configuration
+2023/12/10 09:20:35 [emerg] 1#1: no "events" section in configuration
+2023/12/10 09:21:56 [emerg] 1#1: no "events" section in configuration
+2023/12/10 09:23:51 [emerg] 1#1: open() "/etc/nginx/C:/tools/nginx-1.24.0/conf/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:2
+2023/12/10 09:24:48 [emerg] 1#1: no "events" section in configuration
+2023/12/10 09:25:29 [emerg] 1#1: no "events" section in configuration
+2023/12/10 09:28:18 [emerg] 1#1: no "events" section in configuration
+2023/12/10 09:32:22 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://127.0.0.1:7002/counter", host: "localhost"
+2023/12/10 09:32:22 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://127.0.0.1:7002/counter", host: "localhost"
+2023/12/10 09:32:25 [error] 29#29: *1 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:35 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://127.0.0.1:7002/counter", host: "localhost"
+2023/12/10 09:33:35 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://127.0.0.1:7002/counter", host: "localhost"
+2023/12/10 09:33:35 [error] 29#29: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://127.0.0.1:7002/counter", host: "localhost"
+2023/12/10 09:33:37 [error] 29#29: *1 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:37 [error] 29#29: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:38 [error] 29#29: *1 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:38 [error] 29#29: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:38 [error] 29#29: *1 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:38 [error] 29#29: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:38 [error] 29#29: *1 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:38 [error] 29#29: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:39 [error] 29#29: *1 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:39 [error] 29#29: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:39 [error] 29#29: *1 no live upstreams while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:33:39 [error] 29#29: *1 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://localhost/counter", host: "localhost"
+2023/12/10 09:34:45 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 09:34:45 [notice] 1#1: using the "epoll" event method
+2023/12/10 09:34:45 [notice] 1#1: nginx/1.25.3
+2023/12/10 09:34:45 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 09:34:45 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 09:34:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 09:34:45 [notice] 1#1: start worker processes
+2023/12/10 09:34:45 [notice] 1#1: start worker process 29
+2023/12/10 09:34:45 [notice] 1#1: start worker process 30
+2023/12/10 09:34:45 [notice] 1#1: start worker process 31
+2023/12/10 09:34:45 [notice] 1#1: start worker process 32
+2023/12/10 09:34:45 [notice] 1#1: start cache manager process 33
+2023/12/10 09:34:45 [notice] 1#1: start cache loader process 34
+2023/12/10 09:35:45 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 09:35:45 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 09:35:45 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 09:35:45 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:20:59 [emerg] 1#1: no "events" section in configuration
+2023/12/10 10:24:37 [emerg] 1#1: no "events" section in configuration
+2023/12/10 10:26:06 [emerg] 1#1: no "events" section in configuration
+2023/12/10 10:28:35 [emerg] 1#1: "proxy_cache" zone "cdn_cache" is unknown in /etc/nginx/nginx.conf:84
+2023/12/10 10:29:57 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 10:29:57 [notice] 1#1: using the "epoll" event method
+2023/12/10 10:29:57 [notice] 1#1: nginx/1.25.3
+2023/12/10 10:29:57 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 10:29:57 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 10:29:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 10:29:57 [notice] 1#1: start worker processes
+2023/12/10 10:29:57 [notice] 1#1: start worker process 30
+2023/12/10 10:29:57 [notice] 1#1: start worker process 31
+2023/12/10 10:29:57 [notice] 1#1: start worker process 32
+2023/12/10 10:29:57 [notice] 1#1: start worker process 33
+2023/12/10 10:29:57 [notice] 1#1: start cache manager process 34
+2023/12/10 10:29:57 [notice] 1#1: start cache loader process 35
+2023/12/10 10:30:20 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.65.2:7002/favicon.ico", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:30:20 [error] 31#31: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.65.2:7002/favicon.ico", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:30:21 [error] 31#31: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://192.168.65.2:7002/counter", host: "localhost"
+2023/12/10 10:30:21 [error] 31#31: *2 open() "/etc/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", upstream: "http://192.168.65.2:7002/counter", host: "localhost"
+2023/12/10 10:30:57 [notice] 35#35: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 10:30:57 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/12/10 10:30:57 [notice] 1#1: cache loader process 35 exited with code 0
+2023/12/10 10:30:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:34:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 10:34:33 [notice] 33#33: gracefully shutting down
+2023/12/10 10:34:33 [notice] 31#31: gracefully shutting down
+2023/12/10 10:34:33 [notice] 30#30: gracefully shutting down
+2023/12/10 10:34:33 [notice] 30#30: exiting
+2023/12/10 10:34:33 [notice] 32#32: gracefully shutting down
+2023/12/10 10:34:33 [notice] 34#34: exiting
+2023/12/10 10:34:33 [notice] 33#33: exiting
+2023/12/10 10:34:33 [notice] 31#31: exiting
+2023/12/10 10:34:33 [notice] 30#30: exit
+2023/12/10 10:34:33 [notice] 32#32: exiting
+2023/12/10 10:34:33 [notice] 32#32: exit
+2023/12/10 10:34:33 [notice] 33#33: exit
+2023/12/10 10:34:33 [notice] 31#31: exit
+2023/12/10 10:34:33 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 10:34:33 [notice] 1#1: cache manager process 34 exited with code 0
+2023/12/10 10:34:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:34:33 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 10:34:33 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 10:34:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:34:33 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 10:34:33 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 10:34:33 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 10:34:33 [notice] 1#1: worker process 33 exited with code 0
+2023/12/10 10:34:33 [notice] 1#1: exit
+2023/12/10 10:34:41 [notice] 1#1: using the "epoll" event method
+2023/12/10 10:34:41 [notice] 1#1: nginx/1.25.3
+2023/12/10 10:34:41 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 10:34:41 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 10:34:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 10:34:41 [notice] 1#1: start worker processes
+2023/12/10 10:34:41 [notice] 1#1: start worker process 29
+2023/12/10 10:34:41 [notice] 1#1: start worker process 30
+2023/12/10 10:34:41 [notice] 1#1: start worker process 31
+2023/12/10 10:34:41 [notice] 1#1: start worker process 32
+2023/12/10 10:34:41 [notice] 1#1: start cache manager process 33
+2023/12/10 10:34:41 [notice] 1#1: start cache loader process 34
+2023/12/10 10:34:49 [error] 29#29: *1 open() "/usr/share/nginx/html/counter" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 10:34:50 [error] 29#29: *1 open() "/usr/share/nginx/html/counter" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 10:34:51 [error] 32#32: *3 open() "/usr/share/nginx/html/counter" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 10:34:51 [error] 32#32: *3 open() "/usr/share/nginx/html/counter" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 10:34:51 [error] 32#32: *3 open() "/usr/share/nginx/html/counter" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 10:35:41 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 10:35:41 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 10:35:41 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 10:35:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:41:08 [error] 31#31: *5 open() "/usr/share/nginx/html/counter" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 10:41:09 [error] 31#31: *5 open() "/usr/share/nginx/html/counter" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 10:42:10 [error] 29#29: *7 open() "/usr/share/nginx/html/counter" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 10:42:55 [error] 29#29: *7 open() "/usr/share/nginx/html/counter" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /counter HTTP/1.1", host: "localhost"
+2023/12/10 10:49:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 10:49:06 [notice] 29#29: gracefully shutting down
+2023/12/10 10:49:06 [notice] 32#32: gracefully shutting down
+2023/12/10 10:49:06 [notice] 31#31: gracefully shutting down
+2023/12/10 10:49:06 [notice] 30#30: gracefully shutting down
+2023/12/10 10:49:06 [notice] 33#33: exiting
+2023/12/10 10:49:06 [notice] 29#29: exiting
+2023/12/10 10:49:06 [notice] 32#32: exiting
+2023/12/10 10:49:06 [notice] 31#31: exiting
+2023/12/10 10:49:06 [notice] 30#30: exiting
+2023/12/10 10:49:06 [notice] 29#29: exit
+2023/12/10 10:49:06 [notice] 32#32: exit
+2023/12/10 10:49:06 [notice] 31#31: exit
+2023/12/10 10:49:06 [notice] 30#30: exit
+2023/12/10 10:49:06 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 10:49:06 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 10:49:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:49:06 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 10:49:06 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 10:49:06 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 10:49:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:49:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 10:49:06 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 10:49:06 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 10:49:06 [notice] 1#1: exit
+2023/12/10 10:49:19 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 10:49:19 [notice] 1#1: using the "epoll" event method
+2023/12/10 10:49:19 [notice] 1#1: nginx/1.25.3
+2023/12/10 10:49:19 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 10:49:19 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 10:49:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 10:49:19 [notice] 1#1: start worker processes
+2023/12/10 10:49:19 [notice] 1#1: start worker process 29
+2023/12/10 10:49:19 [notice] 1#1: start worker process 30
+2023/12/10 10:49:19 [notice] 1#1: start worker process 31
+2023/12/10 10:49:19 [notice] 1#1: start worker process 32
+2023/12/10 10:49:19 [notice] 1#1: start cache manager process 33
+2023/12/10 10:49:19 [notice] 1#1: start cache loader process 34
+2023/12/10 10:50:19 [notice] 34#34: http file cache: /var/mock_cdn 0.004M, bsize: 4096
+2023/12/10 10:50:19 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 10:50:19 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 10:50:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:50:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 10:50:44 [notice] 29#29: gracefully shutting down
+2023/12/10 10:50:44 [notice] 29#29: exiting
+2023/12/10 10:50:44 [notice] 30#30: gracefully shutting down
+2023/12/10 10:50:44 [notice] 30#30: exiting
+2023/12/10 10:50:44 [notice] 33#33: exiting
+2023/12/10 10:50:44 [notice] 32#32: gracefully shutting down
+2023/12/10 10:50:44 [notice] 32#32: exiting
+2023/12/10 10:50:44 [notice] 31#31: gracefully shutting down
+2023/12/10 10:50:44 [notice] 29#29: exit
+2023/12/10 10:50:44 [notice] 30#30: exit
+2023/12/10 10:50:44 [notice] 32#32: exit
+2023/12/10 10:50:44 [notice] 31#31: exiting
+2023/12/10 10:50:44 [notice] 31#31: exit
+2023/12/10 10:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 10:50:44 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 10:50:44 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 10:50:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 10:50:44 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 10:50:44 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 10:50:44 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 10:50:44 [notice] 1#1: exit
+2023/12/10 10:50:54 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 10:50:54 [notice] 1#1: using the "epoll" event method
+2023/12/10 10:50:54 [notice] 1#1: nginx/1.25.3
+2023/12/10 10:50:54 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 10:50:54 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 10:50:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 10:50:54 [notice] 1#1: start worker processes
+2023/12/10 10:50:54 [notice] 1#1: start worker process 29
+2023/12/10 10:50:54 [notice] 1#1: start worker process 30
+2023/12/10 10:50:54 [notice] 1#1: start worker process 31
+2023/12/10 10:50:54 [notice] 1#1: start worker process 32
+2023/12/10 10:50:54 [notice] 1#1: start cache manager process 33
+2023/12/10 10:50:54 [notice] 1#1: start cache loader process 34
+2023/12/10 10:51:54 [notice] 34#34: http file cache: /var/mock_cdn 0.012M, bsize: 4096
+2023/12/10 10:51:54 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 10:51:54 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 10:51:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:52:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 10:52:34 [notice] 29#29: gracefully shutting down
+2023/12/10 10:52:34 [notice] 29#29: exiting
+2023/12/10 10:52:34 [notice] 30#30: gracefully shutting down
+2023/12/10 10:52:34 [notice] 31#31: gracefully shutting down
+2023/12/10 10:52:34 [notice] 31#31: exiting
+2023/12/10 10:52:34 [notice] 33#33: exiting
+2023/12/10 10:52:34 [notice] 32#32: gracefully shutting down
+2023/12/10 10:52:34 [notice] 29#29: exit
+2023/12/10 10:52:34 [notice] 30#30: exiting
+2023/12/10 10:52:34 [notice] 31#31: exit
+2023/12/10 10:52:34 [notice] 32#32: exiting
+2023/12/10 10:52:34 [notice] 30#30: exit
+2023/12/10 10:52:34 [notice] 32#32: exit
+2023/12/10 10:52:34 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 10:52:34 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 10:52:34 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 10:52:34 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 10:52:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:52:34 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 10:52:34 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 10:52:34 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 10:52:34 [notice] 1#1: exit
+2023/12/10 10:52:59 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 10:52:59 [notice] 1#1: using the "epoll" event method
+2023/12/10 10:52:59 [notice] 1#1: nginx/1.25.3
+2023/12/10 10:52:59 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 10:52:59 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 10:52:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 10:52:59 [notice] 1#1: start worker processes
+2023/12/10 10:52:59 [notice] 1#1: start worker process 29
+2023/12/10 10:52:59 [notice] 1#1: start worker process 30
+2023/12/10 10:52:59 [notice] 1#1: start worker process 31
+2023/12/10 10:52:59 [notice] 1#1: start worker process 32
+2023/12/10 10:52:59 [notice] 1#1: start cache manager process 33
+2023/12/10 10:52:59 [notice] 1#1: start cache loader process 34
+2023/12/10 10:53:59 [notice] 34#34: http file cache: /var/mock_cdn 0.012M, bsize: 4096
+2023/12/10 10:53:59 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 10:53:59 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 10:53:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:55:16 [error] 29#29: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/webpack-76310e0fbc35a90c.js HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/static/chunks/webpack-76310e0fbc35a90c.js", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:55:16 [error] 29#29: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/framework-0ff1981415a3154d.js HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/static/chunks/framework-0ff1981415a3154d.js", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:55:16 [error] 29#29: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/main-5be387e46a50ea17.js HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/static/chunks/main-5be387e46a50ea17.js", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:55:16 [error] 29#29: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/pages/_app-07a3e531759ac340.js HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/static/chunks/pages/_app-07a3e531759ac340.js", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:55:16 [error] 29#29: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/pages/counter-94d6cf70ee374eb5.js HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/static/chunks/pages/counter-94d6cf70ee374eb5.js", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:55:17 [error] 29#29: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.65.2:7002/favicon.ico", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:55:29 [error] 29#29: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/webpack-76310e0fbc35a90c.js HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/static/chunks/webpack-76310e0fbc35a90c.js", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:55:29 [error] 30#30: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/framework-0ff1981415a3154d.js HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/static/chunks/framework-0ff1981415a3154d.js", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:55:29 [error] 29#29: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/pages/_app-07a3e531759ac340.js HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/static/chunks/pages/_app-07a3e531759ac340.js", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:55:29 [error] 29#29: *21 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/main-5be387e46a50ea17.js HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/static/chunks/main-5be387e46a50ea17.js", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:55:29 [error] 30#30: *24 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/static/chunks/pages/counter-94d6cf70ee374eb5.js HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/static/chunks/pages/counter-94d6cf70ee374eb5.js", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:55:30 [error] 30#30: *24 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://192.168.65.2:7002/favicon.ico", host: "localhost", referrer: "http://localhost/counter"
+2023/12/10 10:58:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 10:58:55 [notice] 32#32: gracefully shutting down
+2023/12/10 10:58:55 [notice] 32#32: exiting
+2023/12/10 10:58:55 [notice] 31#31: gracefully shutting down
+2023/12/10 10:58:55 [notice] 29#29: gracefully shutting down
+2023/12/10 10:58:55 [notice] 33#33: exiting
+2023/12/10 10:58:55 [notice] 30#30: gracefully shutting down
+2023/12/10 10:58:55 [notice] 32#32: exit
+2023/12/10 10:58:55 [notice] 31#31: exiting
+2023/12/10 10:58:55 [notice] 29#29: exiting
+2023/12/10 10:58:55 [notice] 30#30: exiting
+2023/12/10 10:58:55 [notice] 31#31: exit
+2023/12/10 10:58:55 [notice] 29#29: exit
+2023/12/10 10:58:55 [notice] 30#30: exit
+2023/12/10 10:58:55 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 10:58:55 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 10:58:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:58:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 10:58:55 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 10:58:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:58:55 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 10:58:55 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 10:58:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 10:58:55 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 10:58:55 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 10:58:55 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 10:58:55 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 10:58:55 [notice] 1#1: exit
+2023/12/10 10:59:07 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 10:59:07 [notice] 1#1: using the "epoll" event method
+2023/12/10 10:59:07 [notice] 1#1: nginx/1.25.3
+2023/12/10 10:59:07 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 10:59:07 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 10:59:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 10:59:07 [notice] 1#1: start worker processes
+2023/12/10 10:59:07 [notice] 1#1: start worker process 29
+2023/12/10 10:59:07 [notice] 1#1: start worker process 30
+2023/12/10 10:59:07 [notice] 1#1: start worker process 31
+2023/12/10 10:59:07 [notice] 1#1: start worker process 32
+2023/12/10 10:59:07 [notice] 1#1: start cache manager process 33
+2023/12/10 10:59:07 [notice] 1#1: start cache loader process 34
+2023/12/10 11:00:07 [notice] 34#34: http file cache: /var/mock_cdn 0.113M, bsize: 4096
+2023/12/10 11:00:08 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 11:00:08 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 11:00:08 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:00:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 11:00:15 [notice] 29#29: gracefully shutting down
+2023/12/10 11:00:15 [notice] 29#29: exiting
+2023/12/10 11:00:15 [notice] 30#30: gracefully shutting down
+2023/12/10 11:00:15 [notice] 31#31: gracefully shutting down
+2023/12/10 11:00:15 [notice] 31#31: exiting
+2023/12/10 11:00:15 [notice] 33#33: exiting
+2023/12/10 11:00:15 [notice] 32#32: gracefully shutting down
+2023/12/10 11:00:15 [notice] 29#29: exit
+2023/12/10 11:00:15 [notice] 30#30: exiting
+2023/12/10 11:00:15 [notice] 31#31: exit
+2023/12/10 11:00:15 [notice] 32#32: exiting
+2023/12/10 11:00:15 [notice] 30#30: exit
+2023/12/10 11:00:15 [notice] 32#32: exit
+2023/12/10 11:00:15 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 11:00:15 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 11:00:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:00:15 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 11:00:15 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 11:00:15 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 11:00:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:00:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 11:00:15 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 11:00:15 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 11:00:15 [notice] 1#1: exit
+2023/12/10 11:00:52 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 11:00:52 [notice] 1#1: using the "epoll" event method
+2023/12/10 11:00:52 [notice] 1#1: nginx/1.25.3
+2023/12/10 11:00:52 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 11:00:52 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 11:00:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 11:00:52 [notice] 1#1: start worker processes
+2023/12/10 11:00:52 [notice] 1#1: start worker process 29
+2023/12/10 11:00:52 [notice] 1#1: start worker process 30
+2023/12/10 11:00:52 [notice] 1#1: start worker process 31
+2023/12/10 11:00:52 [notice] 1#1: start worker process 32
+2023/12/10 11:00:52 [notice] 1#1: start cache manager process 33
+2023/12/10 11:00:52 [notice] 1#1: start cache loader process 34
+2023/12/10 11:01:52 [notice] 34#34: http file cache: /var/mock_cdn 0.113M, bsize: 4096
+2023/12/10 11:01:52 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 11:01:52 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 11:01:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:02:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 11:02:10 [notice] 29#29: gracefully shutting down
+2023/12/10 11:02:10 [notice] 29#29: exiting
+2023/12/10 11:02:10 [notice] 30#30: gracefully shutting down
+2023/12/10 11:02:10 [notice] 32#32: gracefully shutting down
+2023/12/10 11:02:10 [notice] 32#32: exiting
+2023/12/10 11:02:10 [notice] 31#31: gracefully shutting down
+2023/12/10 11:02:10 [notice] 33#33: exiting
+2023/12/10 11:02:10 [notice] 29#29: exit
+2023/12/10 11:02:10 [notice] 30#30: exiting
+2023/12/10 11:02:10 [notice] 32#32: exit
+2023/12/10 11:02:10 [notice] 31#31: exiting
+2023/12/10 11:02:10 [notice] 30#30: exit
+2023/12/10 11:02:10 [notice] 31#31: exit
+2023/12/10 11:02:10 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 11:02:10 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 11:02:10 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 11:02:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:02:10 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 11:02:10 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 11:02:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:02:10 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 11:02:10 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 11:02:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:02:10 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 11:02:10 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 11:02:10 [notice] 1#1: exit
+2023/12/10 11:02:19 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 11:02:19 [notice] 1#1: using the "epoll" event method
+2023/12/10 11:02:19 [notice] 1#1: nginx/1.25.3
+2023/12/10 11:02:19 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 11:02:19 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 11:02:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 11:02:19 [notice] 1#1: start worker processes
+2023/12/10 11:02:19 [notice] 1#1: start worker process 29
+2023/12/10 11:02:19 [notice] 1#1: start worker process 30
+2023/12/10 11:02:19 [notice] 1#1: start worker process 31
+2023/12/10 11:02:19 [notice] 1#1: start worker process 32
+2023/12/10 11:02:19 [notice] 1#1: start cache manager process 33
+2023/12/10 11:02:19 [notice] 1#1: start cache loader process 34
+2023/12/10 11:03:19 [notice] 34#34: http file cache: /var/mock_cdn 0.113M, bsize: 4096
+2023/12/10 11:03:19 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 11:03:19 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 11:03:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:06:16 [warn] 42#42: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 11:06:16 [emerg] 42#42: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/12/10 11:06:16 [emerg] 42#42: bind() to [::]:80 failed (98: Address already in use)
+2023/12/10 11:06:16 [notice] 42#42: try again to bind() after 500ms
+2023/12/10 11:06:16 [emerg] 42#42: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/12/10 11:06:16 [emerg] 42#42: bind() to [::]:80 failed (98: Address already in use)
+2023/12/10 11:06:16 [notice] 42#42: try again to bind() after 500ms
+2023/12/10 11:06:16 [emerg] 42#42: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/12/10 11:06:16 [emerg] 42#42: bind() to [::]:80 failed (98: Address already in use)
+2023/12/10 11:06:16 [notice] 42#42: try again to bind() after 500ms
+2023/12/10 11:06:16 [emerg] 42#42: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/12/10 11:06:16 [emerg] 42#42: bind() to [::]:80 failed (98: Address already in use)
+2023/12/10 11:06:16 [notice] 42#42: try again to bind() after 500ms
+2023/12/10 11:06:16 [emerg] 42#42: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2023/12/10 11:06:16 [emerg] 42#42: bind() to [::]:80 failed (98: Address already in use)
+2023/12/10 11:06:16 [notice] 42#42: try again to bind() after 500ms
+2023/12/10 11:06:16 [emerg] 42#42: still could not bind()
+2023/12/10 11:08:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 11:08:22 [notice] 29#29: gracefully shutting down
+2023/12/10 11:08:22 [notice] 29#29: exiting
+2023/12/10 11:08:22 [notice] 30#30: gracefully shutting down
+2023/12/10 11:08:22 [notice] 32#32: gracefully shutting down
+2023/12/10 11:08:22 [notice] 31#31: gracefully shutting down
+2023/12/10 11:08:22 [notice] 33#33: exiting
+2023/12/10 11:08:22 [notice] 29#29: exit
+2023/12/10 11:08:22 [notice] 30#30: exiting
+2023/12/10 11:08:22 [notice] 32#32: exiting
+2023/12/10 11:08:22 [notice] 31#31: exiting
+2023/12/10 11:08:22 [notice] 30#30: exit
+2023/12/10 11:08:22 [notice] 32#32: exit
+2023/12/10 11:08:22 [notice] 31#31: exit
+2023/12/10 11:08:23 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 11:08:23 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 11:08:23 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 11:08:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:08:23 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 11:08:23 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 11:08:23 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 11:08:23 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 11:08:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:08:23 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 11:08:23 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 11:08:23 [notice] 1#1: exit
+2023/12/10 11:09:21 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 11:09:21 [notice] 1#1: using the "epoll" event method
+2023/12/10 11:09:21 [notice] 1#1: nginx/1.25.3
+2023/12/10 11:09:21 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 11:09:21 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 11:09:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 11:09:21 [notice] 1#1: start worker processes
+2023/12/10 11:09:21 [notice] 1#1: start worker process 29
+2023/12/10 11:09:21 [notice] 1#1: start worker process 30
+2023/12/10 11:09:21 [notice] 1#1: start worker process 31
+2023/12/10 11:09:21 [notice] 1#1: start worker process 32
+2023/12/10 11:09:21 [notice] 1#1: start cache manager process 33
+2023/12/10 11:09:21 [notice] 1#1: start cache loader process 34
+2023/12/10 11:10:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 11:10:11 [notice] 29#29: gracefully shutting down
+2023/12/10 11:10:11 [notice] 29#29: exiting
+2023/12/10 11:10:11 [notice] 30#30: gracefully shutting down
+2023/12/10 11:10:11 [notice] 30#30: exiting
+2023/12/10 11:10:11 [notice] 31#31: gracefully shutting down
+2023/12/10 11:10:11 [notice] 31#31: exiting
+2023/12/10 11:10:11 [notice] 32#32: gracefully shutting down
+2023/12/10 11:10:11 [notice] 32#32: exiting
+2023/12/10 11:10:11 [notice] 34#34: exiting
+2023/12/10 11:10:11 [notice] 33#33: exiting
+2023/12/10 11:10:11 [notice] 29#29: exit
+2023/12/10 11:10:11 [notice] 30#30: exit
+2023/12/10 11:10:11 [notice] 31#31: exit
+2023/12/10 11:10:11 [notice] 32#32: exit
+2023/12/10 11:10:11 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 11:10:11 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 11:10:11 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 11:10:11 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 11:10:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:10:11 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 11:10:11 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 11:10:11 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 11:10:11 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 11:10:11 [notice] 1#1: exit
+2023/12/10 11:13:04 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 11:13:04 [notice] 1#1: using the "epoll" event method
+2023/12/10 11:13:04 [notice] 1#1: nginx/1.25.3
+2023/12/10 11:13:04 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 11:13:04 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 11:13:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 11:13:04 [notice] 1#1: start worker processes
+2023/12/10 11:13:04 [notice] 1#1: start worker process 29
+2023/12/10 11:13:04 [notice] 1#1: start worker process 30
+2023/12/10 11:13:04 [notice] 1#1: start worker process 31
+2023/12/10 11:13:04 [notice] 1#1: start worker process 32
+2023/12/10 11:13:04 [notice] 1#1: start cache manager process 33
+2023/12/10 11:13:04 [notice] 1#1: start cache loader process 34
+2023/12/10 11:14:05 [notice] 34#34: http file cache: /var/mock_cdn 0.113M, bsize: 4096
+2023/12/10 11:14:05 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 11:14:05 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 11:14:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:24:04 [crit] 33#33: unlink() "/var/mock_cdn/32c562cad2bcf6459c9aedd022f0b18a" failed (2: No such file or directory)
+2023/12/10 11:24:04 [crit] 33#33: unlink() "/var/mock_cdn/608d7d6ba222a75195ce7a40eff3ddfd" failed (2: No such file or directory)
+2023/12/10 11:24:05 [crit] 33#33: unlink() "/var/mock_cdn/8cfe9549b065c0ab1cdf04f666d0f06a" failed (2: No such file or directory)
+2023/12/10 11:24:05 [crit] 33#33: unlink() "/var/mock_cdn/8da6454ee8e495d1c9578840c7a79e3d" failed (2: No such file or directory)
+2023/12/10 11:24:05 [crit] 33#33: unlink() "/var/mock_cdn/b506ecc56f4e792529693ec37f31c0ee" failed (2: No such file or directory)
+2023/12/10 11:24:05 [crit] 33#33: unlink() "/var/mock_cdn/c34a2585131a68dd246cfdb8d94ca599" failed (2: No such file or directory)
+2023/12/10 11:24:05 [crit] 33#33: unlink() "/var/mock_cdn/d8ec3faf4146c3d0a4b79729367401be" failed (2: No such file or directory)
+2023/12/10 11:24:05 [crit] 33#33: unlink() "/var/mock_cdn/e563613615cc19a8023cae2184a327a6" failed (2: No such file or directory)
+2023/12/10 11:24:05 [crit] 33#33: unlink() "/var/mock_cdn/fffd96c9c984c462f75eb86cfdf8e601" failed (2: No such file or directory)
+2023/12/10 11:25:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 11:25:05 [notice] 30#30: gracefully shutting down
+2023/12/10 11:25:05 [notice] 30#30: exiting
+2023/12/10 11:25:05 [notice] 29#29: gracefully shutting down
+2023/12/10 11:25:05 [notice] 31#31: gracefully shutting down
+2023/12/10 11:25:05 [notice] 32#32: gracefully shutting down
+2023/12/10 11:25:05 [notice] 33#33: exiting
+2023/12/10 11:25:05 [notice] 30#30: exit
+2023/12/10 11:25:05 [notice] 29#29: exiting
+2023/12/10 11:25:05 [notice] 31#31: exiting
+2023/12/10 11:25:05 [notice] 32#32: exiting
+2023/12/10 11:25:05 [notice] 29#29: exit
+2023/12/10 11:25:05 [notice] 31#31: exit
+2023/12/10 11:25:05 [notice] 32#32: exit
+2023/12/10 11:25:05 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 11:25:05 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 11:25:05 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 11:25:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:25:05 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 11:25:05 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 11:25:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 11:25:05 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 11:25:05 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 11:25:05 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 11:25:05 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 11:25:05 [notice] 1#1: exit
+2023/12/10 11:25:57 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 11:25:57 [notice] 1#1: using the "epoll" event method
+2023/12/10 11:25:57 [notice] 1#1: nginx/1.25.3
+2023/12/10 11:25:57 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 11:25:57 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 11:25:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 11:25:57 [notice] 1#1: start worker processes
+2023/12/10 11:25:57 [notice] 1#1: start worker process 29
+2023/12/10 11:25:57 [notice] 1#1: start worker process 30
+2023/12/10 11:25:57 [notice] 1#1: start worker process 31
+2023/12/10 11:25:57 [notice] 1#1: start worker process 32
+2023/12/10 11:25:57 [notice] 1#1: start cache manager process 33
+2023/12/10 11:25:57 [notice] 1#1: start cache loader process 34
+2023/12/10 11:26:57 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 11:26:57 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 11:26:57 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 11:26:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:22:20 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 13:22:20 [notice] 1#1: using the "epoll" event method
+2023/12/10 13:22:20 [notice] 1#1: nginx/1.25.3
+2023/12/10 13:22:20 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 13:22:20 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 13:22:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 13:22:20 [notice] 1#1: start worker processes
+2023/12/10 13:22:20 [notice] 1#1: start worker process 29
+2023/12/10 13:22:20 [notice] 1#1: start worker process 30
+2023/12/10 13:22:20 [notice] 1#1: start worker process 31
+2023/12/10 13:22:20 [notice] 1#1: start worker process 32
+2023/12/10 13:22:20 [notice] 1#1: start cache manager process 33
+2023/12/10 13:22:20 [notice] 1#1: start cache loader process 34
+2023/12/10 13:23:20 [notice] 34#34: http file cache: /var/mock_cdn 0.113M, bsize: 4096
+2023/12/10 13:23:20 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 13:23:20 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 13:23:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:26:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 13:26:28 [notice] 30#30: gracefully shutting down
+2023/12/10 13:26:28 [notice] 31#31: gracefully shutting down
+2023/12/10 13:26:28 [notice] 32#32: gracefully shutting down
+2023/12/10 13:26:28 [notice] 29#29: gracefully shutting down
+2023/12/10 13:26:28 [notice] 33#33: exiting
+2023/12/10 13:26:28 [notice] 30#30: exiting
+2023/12/10 13:26:28 [notice] 31#31: exiting
+2023/12/10 13:26:28 [notice] 31#31: exit
+2023/12/10 13:26:28 [notice] 32#32: exiting
+2023/12/10 13:26:28 [notice] 29#29: exiting
+2023/12/10 13:26:28 [notice] 30#30: exit
+2023/12/10 13:26:28 [notice] 32#32: exit
+2023/12/10 13:26:28 [notice] 29#29: exit
+2023/12/10 13:26:28 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 13:26:28 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 13:26:28 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:26:28 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 13:26:28 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 13:26:28 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 13:26:28 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:26:28 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 13:26:28 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 13:26:28 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 13:26:28 [notice] 1#1: exit
+2023/12/10 13:27:23 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 13:27:23 [notice] 1#1: using the "epoll" event method
+2023/12/10 13:27:23 [notice] 1#1: nginx/1.25.3
+2023/12/10 13:27:23 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 13:27:23 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 13:27:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 13:27:23 [notice] 1#1: start worker processes
+2023/12/10 13:27:23 [notice] 1#1: start worker process 30
+2023/12/10 13:27:23 [notice] 1#1: start worker process 31
+2023/12/10 13:27:23 [notice] 1#1: start worker process 32
+2023/12/10 13:27:23 [notice] 1#1: start worker process 33
+2023/12/10 13:27:23 [notice] 1#1: start cache manager process 34
+2023/12/10 13:27:23 [notice] 1#1: start cache loader process 35
+2023/12/10 13:28:24 [notice] 35#35: http file cache: /var/mock_cdn 0.113M, bsize: 4096
+2023/12/10 13:28:24 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/12/10 13:28:24 [notice] 1#1: cache loader process 35 exited with code 0
+2023/12/10 13:28:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:31:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 13:31:34 [notice] 30#30: gracefully shutting down
+2023/12/10 13:31:34 [notice] 33#33: gracefully shutting down
+2023/12/10 13:31:34 [notice] 34#34: exiting
+2023/12/10 13:31:34 [notice] 32#32: gracefully shutting down
+2023/12/10 13:31:34 [notice] 32#32: exiting
+2023/12/10 13:31:34 [notice] 31#31: gracefully shutting down
+2023/12/10 13:31:34 [notice] 30#30: exiting
+2023/12/10 13:31:34 [notice] 33#33: exiting
+2023/12/10 13:31:34 [notice] 32#32: exit
+2023/12/10 13:31:34 [notice] 31#31: exiting
+2023/12/10 13:31:34 [notice] 31#31: exit
+2023/12/10 13:31:34 [notice] 30#30: exit
+2023/12/10 13:31:34 [notice] 33#33: exit
+2023/12/10 13:31:34 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 13:31:34 [notice] 1#1: cache manager process 34 exited with code 0
+2023/12/10 13:31:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:31:34 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 13:31:34 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 13:31:34 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 13:31:34 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 13:31:34 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 13:31:34 [notice] 1#1: worker process 33 exited with code 0
+2023/12/10 13:31:34 [notice] 1#1: exit
+2023/12/10 13:32:26 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 13:32:26 [notice] 1#1: using the "epoll" event method
+2023/12/10 13:32:26 [notice] 1#1: nginx/1.25.3
+2023/12/10 13:32:26 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 13:32:26 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 13:32:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 13:32:26 [notice] 1#1: start worker processes
+2023/12/10 13:32:26 [notice] 1#1: start worker process 30
+2023/12/10 13:32:26 [notice] 1#1: start worker process 31
+2023/12/10 13:32:26 [notice] 1#1: start worker process 32
+2023/12/10 13:32:26 [notice] 1#1: start worker process 33
+2023/12/10 13:32:26 [notice] 1#1: start cache manager process 34
+2023/12/10 13:32:26 [notice] 1#1: start cache loader process 35
+2023/12/10 13:33:27 [notice] 35#35: http file cache: /var/mock_cdn 0.113M, bsize: 4096
+2023/12/10 13:33:27 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/12/10 13:33:27 [notice] 1#1: cache loader process 35 exited with code 0
+2023/12/10 13:33:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:34:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 13:34:36 [notice] 30#30: gracefully shutting down
+2023/12/10 13:34:36 [notice] 30#30: exiting
+2023/12/10 13:34:36 [notice] 31#31: gracefully shutting down
+2023/12/10 13:34:36 [notice] 31#31: exiting
+2023/12/10 13:34:36 [notice] 32#32: gracefully shutting down
+2023/12/10 13:34:36 [notice] 32#32: exiting
+2023/12/10 13:34:36 [notice] 34#34: exiting
+2023/12/10 13:34:36 [notice] 33#33: gracefully shutting down
+2023/12/10 13:34:36 [notice] 30#30: exit
+2023/12/10 13:34:36 [notice] 31#31: exit
+2023/12/10 13:34:36 [notice] 32#32: exit
+2023/12/10 13:34:36 [notice] 33#33: exiting
+2023/12/10 13:34:36 [notice] 33#33: exit
+2023/12/10 13:34:36 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 13:34:36 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 13:34:36 [notice] 1#1: cache manager process 34 exited with code 0
+2023/12/10 13:34:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:34:36 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 13:34:36 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 13:34:36 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 13:34:36 [notice] 1#1: worker process 33 exited with code 0
+2023/12/10 13:34:36 [notice] 1#1: exit
+2023/12/10 13:36:13 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 13:36:13 [notice] 1#1: using the "epoll" event method
+2023/12/10 13:36:13 [notice] 1#1: nginx/1.25.3
+2023/12/10 13:36:13 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 13:36:13 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 13:36:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 13:36:13 [notice] 1#1: start worker processes
+2023/12/10 13:36:13 [notice] 1#1: start worker process 29
+2023/12/10 13:36:13 [notice] 1#1: start worker process 30
+2023/12/10 13:36:13 [notice] 1#1: start worker process 31
+2023/12/10 13:36:13 [notice] 1#1: start worker process 32
+2023/12/10 13:36:13 [notice] 1#1: start cache manager process 33
+2023/12/10 13:36:13 [notice] 1#1: start cache loader process 34
+2023/12/10 13:37:13 [notice] 34#34: http file cache: /var/mock_cdn 0.113M, bsize: 4096
+2023/12/10 13:37:13 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 13:37:13 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 13:37:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:37:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 13:37:24 [notice] 29#29: gracefully shutting down
+2023/12/10 13:37:24 [notice] 30#30: gracefully shutting down
+2023/12/10 13:37:24 [notice] 32#32: gracefully shutting down
+2023/12/10 13:37:24 [notice] 31#31: gracefully shutting down
+2023/12/10 13:37:24 [notice] 31#31: exiting
+2023/12/10 13:37:24 [notice] 33#33: exiting
+2023/12/10 13:37:24 [notice] 29#29: exiting
+2023/12/10 13:37:24 [notice] 30#30: exiting
+2023/12/10 13:37:24 [notice] 32#32: exiting
+2023/12/10 13:37:24 [notice] 31#31: exit
+2023/12/10 13:37:24 [notice] 29#29: exit
+2023/12/10 13:37:24 [notice] 30#30: exit
+2023/12/10 13:37:24 [notice] 32#32: exit
+2023/12/10 13:37:24 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 13:37:24 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 13:37:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:37:24 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/10 13:37:24 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 13:37:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:37:24 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 13:37:24 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 13:37:24 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 13:37:24 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 13:37:24 [notice] 1#1: exit
+2023/12/10 13:38:26 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 13:38:26 [notice] 1#1: using the "epoll" event method
+2023/12/10 13:38:26 [notice] 1#1: nginx/1.25.3
+2023/12/10 13:38:26 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 13:38:26 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 13:38:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 13:38:26 [notice] 1#1: start worker processes
+2023/12/10 13:38:26 [notice] 1#1: start worker process 30
+2023/12/10 13:38:26 [notice] 1#1: start worker process 31
+2023/12/10 13:38:26 [notice] 1#1: start worker process 32
+2023/12/10 13:38:26 [notice] 1#1: start worker process 33
+2023/12/10 13:38:26 [notice] 1#1: start cache manager process 34
+2023/12/10 13:38:26 [notice] 1#1: start cache loader process 35
+2023/12/10 13:39:26 [notice] 35#35: http file cache: /var/mock_cdn 0.113M, bsize: 4096
+2023/12/10 13:39:26 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/12/10 13:39:26 [notice] 1#1: cache loader process 35 exited with code 0
+2023/12/10 13:39:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:41:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 13:41:38 [notice] 30#30: gracefully shutting down
+2023/12/10 13:41:38 [notice] 31#31: gracefully shutting down
+2023/12/10 13:41:38 [notice] 34#34: exiting
+2023/12/10 13:41:38 [notice] 32#32: gracefully shutting down
+2023/12/10 13:41:38 [notice] 32#32: exiting
+2023/12/10 13:41:38 [notice] 33#33: gracefully shutting down
+2023/12/10 13:41:38 [notice] 30#30: exiting
+2023/12/10 13:41:38 [notice] 31#31: exiting
+2023/12/10 13:41:38 [notice] 32#32: exit
+2023/12/10 13:41:38 [notice] 33#33: exiting
+2023/12/10 13:41:38 [notice] 30#30: exit
+2023/12/10 13:41:38 [notice] 31#31: exit
+2023/12/10 13:41:38 [notice] 33#33: exit
+2023/12/10 13:41:38 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 13:41:38 [notice] 1#1: cache manager process 34 exited with code 0
+2023/12/10 13:41:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:41:38 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 13:41:38 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 13:41:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:41:38 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 13:41:38 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 13:41:38 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 13:41:38 [notice] 1#1: worker process 33 exited with code 0
+2023/12/10 13:41:38 [notice] 1#1: exit
+2023/12/10 13:43:03 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 13:43:03 [notice] 1#1: using the "epoll" event method
+2023/12/10 13:43:03 [notice] 1#1: nginx/1.25.3
+2023/12/10 13:43:03 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 13:43:03 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 13:43:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 13:43:03 [notice] 1#1: start worker processes
+2023/12/10 13:43:03 [notice] 1#1: start worker process 29
+2023/12/10 13:43:03 [notice] 1#1: start worker process 30
+2023/12/10 13:43:03 [notice] 1#1: start worker process 31
+2023/12/10 13:43:03 [notice] 1#1: start worker process 32
+2023/12/10 13:43:03 [notice] 1#1: start cache manager process 33
+2023/12/10 13:43:03 [notice] 1#1: start cache loader process 34
+2023/12/10 13:44:03 [error] 30#30: *31 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 13:44:03 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 13:44:03 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 13:44:03 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 13:44:03 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:44:10 [error] 30#30: *33 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 13:44:16 [error] 30#30: *35 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 13:44:22 [error] 30#30: *37 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 13:44:28 [error] 30#30: *39 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /_next/webpack-hmr HTTP/1.1", upstream: "http://192.168.65.2:7002/_next/webpack-hmr", host: "localhost"
+2023/12/10 13:46:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 13:46:34 [notice] 29#29: gracefully shutting down
+2023/12/10 13:46:34 [notice] 30#30: gracefully shutting down
+2023/12/10 13:46:34 [notice] 31#31: gracefully shutting down
+2023/12/10 13:46:34 [notice] 31#31: exiting
+2023/12/10 13:46:34 [notice] 32#32: gracefully shutting down
+2023/12/10 13:46:34 [notice] 33#33: exiting
+2023/12/10 13:46:34 [notice] 30#30: exiting
+2023/12/10 13:46:34 [notice] 31#31: exit
+2023/12/10 13:46:34 [notice] 32#32: exiting
+2023/12/10 13:46:34 [notice] 30#30: exit
+2023/12/10 13:46:34 [notice] 32#32: exit
+2023/12/10 13:46:34 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 13:46:34 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 13:46:34 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 13:46:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:46:34 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 13:46:34 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 13:46:34 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 13:46:34 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 13:46:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:47:32 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 13:47:32 [notice] 1#1: using the "epoll" event method
+2023/12/10 13:47:32 [notice] 1#1: nginx/1.25.3
+2023/12/10 13:47:32 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 13:47:32 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 13:47:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 13:47:32 [notice] 1#1: start worker processes
+2023/12/10 13:47:32 [notice] 1#1: start worker process 29
+2023/12/10 13:47:32 [notice] 1#1: start worker process 30
+2023/12/10 13:47:32 [notice] 1#1: start worker process 31
+2023/12/10 13:47:32 [notice] 1#1: start worker process 32
+2023/12/10 13:47:32 [notice] 1#1: start cache manager process 33
+2023/12/10 13:47:32 [notice] 1#1: start cache loader process 34
+2023/12/10 13:48:32 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 13:48:32 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 13:48:32 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 13:48:32 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:49:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 13:49:43 [notice] 29#29: gracefully shutting down
+2023/12/10 13:49:43 [notice] 30#30: gracefully shutting down
+2023/12/10 13:49:43 [notice] 31#31: gracefully shutting down
+2023/12/10 13:49:43 [notice] 32#32: gracefully shutting down
+2023/12/10 13:49:43 [notice] 33#33: exiting
+2023/12/10 13:49:43 [notice] 29#29: exiting
+2023/12/10 13:49:43 [notice] 31#31: exiting
+2023/12/10 13:49:43 [notice] 32#32: exiting
+2023/12/10 13:49:43 [notice] 29#29: exit
+2023/12/10 13:49:43 [notice] 31#31: exit
+2023/12/10 13:49:43 [notice] 32#32: exit
+2023/12/10 13:49:43 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 13:49:43 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/10 13:49:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:49:43 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/10 13:49:43 [notice] 1#1: worker process 29 exited with code 0
+2023/12/10 13:49:43 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 13:49:43 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 13:49:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:49:43 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/10 13:51:19 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 13:51:19 [notice] 1#1: using the "epoll" event method
+2023/12/10 13:51:19 [notice] 1#1: nginx/1.25.3
+2023/12/10 13:51:19 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 13:51:19 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 13:51:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 13:51:19 [notice] 1#1: start worker processes
+2023/12/10 13:51:19 [notice] 1#1: start worker process 30
+2023/12/10 13:51:19 [notice] 1#1: start worker process 31
+2023/12/10 13:51:19 [notice] 1#1: start worker process 32
+2023/12/10 13:51:19 [notice] 1#1: start worker process 33
+2023/12/10 13:51:19 [notice] 1#1: start cache manager process 34
+2023/12/10 13:51:19 [notice] 1#1: start cache loader process 35
+2023/12/10 13:52:20 [notice] 35#35: http file cache: /var/mock_cdn 0.004M, bsize: 4096
+2023/12/10 13:52:20 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/12/10 13:52:20 [notice] 1#1: cache loader process 35 exited with code 0
+2023/12/10 13:52:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:55:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/10 13:55:31 [notice] 30#30: gracefully shutting down
+2023/12/10 13:55:31 [notice] 31#31: gracefully shutting down
+2023/12/10 13:55:31 [notice] 34#34: exiting
+2023/12/10 13:55:31 [notice] 33#33: gracefully shutting down
+2023/12/10 13:55:31 [notice] 33#33: exiting
+2023/12/10 13:55:31 [notice] 32#32: gracefully shutting down
+2023/12/10 13:55:31 [notice] 30#30: exiting
+2023/12/10 13:55:31 [notice] 31#31: exiting
+2023/12/10 13:55:31 [notice] 33#33: exit
+2023/12/10 13:55:31 [notice] 32#32: exiting
+2023/12/10 13:55:31 [notice] 30#30: exit
+2023/12/10 13:55:31 [notice] 31#31: exit
+2023/12/10 13:55:31 [notice] 32#32: exit
+2023/12/10 13:55:31 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 13:55:31 [notice] 1#1: cache manager process 34 exited with code 0
+2023/12/10 13:55:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:55:31 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/10 13:55:31 [notice] 1#1: worker process 33 exited with code 0
+2023/12/10 13:55:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/10 13:55:31 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/10 13:55:31 [notice] 1#1: worker process 30 exited with code 0
+2023/12/10 13:55:31 [notice] 1#1: worker process 31 exited with code 0
+2023/12/10 13:55:31 [notice] 1#1: worker process 32 exited with code 0
+2023/12/10 13:55:31 [notice] 1#1: exit
+2023/12/10 13:56:07 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/10 13:56:07 [notice] 1#1: using the "epoll" event method
+2023/12/10 13:56:07 [notice] 1#1: nginx/1.25.3
+2023/12/10 13:56:07 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/10 13:56:07 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/10 13:56:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/10 13:56:07 [notice] 1#1: start worker processes
+2023/12/10 13:56:07 [notice] 1#1: start worker process 29
+2023/12/10 13:56:07 [notice] 1#1: start worker process 30
+2023/12/10 13:56:07 [notice] 1#1: start worker process 31
+2023/12/10 13:56:07 [notice] 1#1: start worker process 32
+2023/12/10 13:56:07 [notice] 1#1: start cache manager process 33
+2023/12/10 13:56:07 [notice] 1#1: start cache loader process 34
+2023/12/10 13:57:07 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/10 13:57:07 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/10 13:57:07 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/10 13:57:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 13:20:28 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/17 13:20:28 [notice] 1#1: using the "epoll" event method
+2023/12/17 13:20:28 [notice] 1#1: nginx/1.25.3
+2023/12/17 13:20:28 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/17 13:20:28 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/17 13:20:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/17 13:20:28 [notice] 1#1: start worker processes
+2023/12/17 13:20:28 [notice] 1#1: start worker process 29
+2023/12/17 13:20:28 [notice] 1#1: start worker process 30
+2023/12/17 13:20:28 [notice] 1#1: start worker process 31
+2023/12/17 13:20:28 [notice] 1#1: start worker process 32
+2023/12/17 13:20:28 [notice] 1#1: start cache manager process 33
+2023/12/17 13:20:28 [notice] 1#1: start cache loader process 34
+2023/12/17 13:21:29 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/17 13:21:29 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/17 13:21:29 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/17 13:21:29 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 13:27:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/17 13:27:38 [notice] 29#29: gracefully shutting down
+2023/12/17 13:27:38 [notice] 31#31: gracefully shutting down
+2023/12/17 13:27:38 [notice] 31#31: exiting
+2023/12/17 13:27:38 [notice] 33#33: exiting
+2023/12/17 13:27:38 [notice] 30#30: gracefully shutting down
+2023/12/17 13:27:38 [notice] 30#30: exiting
+2023/12/17 13:27:38 [notice] 32#32: gracefully shutting down
+2023/12/17 13:27:38 [notice] 29#29: exiting
+2023/12/17 13:27:38 [notice] 31#31: exit
+2023/12/17 13:27:38 [notice] 30#30: exit
+2023/12/17 13:27:38 [notice] 32#32: exiting
+2023/12/17 13:27:38 [notice] 29#29: exit
+2023/12/17 13:27:38 [notice] 32#32: exit
+2023/12/17 13:27:38 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/17 13:27:38 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/17 13:27:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 13:27:38 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/17 13:27:38 [notice] 1#1: worker process 31 exited with code 0
+2023/12/17 13:27:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 13:27:38 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/12/17 13:27:38 [notice] 1#1: worker process 29 exited with code 0
+2023/12/17 13:27:38 [notice] 1#1: worker process 30 exited with code 0
+2023/12/17 13:27:38 [notice] 1#1: worker process 32 exited with code 0
+2023/12/17 13:27:38 [notice] 1#1: exit
+2023/12/17 13:28:41 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/17 13:28:41 [notice] 1#1: using the "epoll" event method
+2023/12/17 13:28:41 [notice] 1#1: nginx/1.25.3
+2023/12/17 13:28:41 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/17 13:28:41 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/17 13:28:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/17 13:28:41 [notice] 1#1: start worker processes
+2023/12/17 13:28:41 [notice] 1#1: start worker process 29
+2023/12/17 13:28:41 [notice] 1#1: start worker process 30
+2023/12/17 13:28:41 [notice] 1#1: start worker process 31
+2023/12/17 13:28:41 [notice] 1#1: start worker process 32
+2023/12/17 13:28:41 [notice] 1#1: start cache manager process 33
+2023/12/17 13:28:41 [notice] 1#1: start cache loader process 34
+2023/12/17 13:29:41 [notice] 34#34: http file cache: /var/mock_cdn 0.004M, bsize: 4096
+2023/12/17 13:29:41 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/17 13:29:41 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/17 13:29:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 13:32:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/17 13:32:54 [notice] 29#29: gracefully shutting down
+2023/12/17 13:32:54 [notice] 29#29: exiting
+2023/12/17 13:32:54 [notice] 30#30: gracefully shutting down
+2023/12/17 13:32:54 [notice] 30#30: exiting
+2023/12/17 13:32:54 [notice] 32#32: gracefully shutting down
+2023/12/17 13:32:54 [notice] 31#31: gracefully shutting down
+2023/12/17 13:32:54 [notice] 33#33: exiting
+2023/12/17 13:32:54 [notice] 29#29: exit
+2023/12/17 13:32:54 [notice] 30#30: exit
+2023/12/17 13:32:54 [notice] 32#32: exiting
+2023/12/17 13:32:54 [notice] 31#31: exiting
+2023/12/17 13:32:54 [notice] 32#32: exit
+2023/12/17 13:32:54 [notice] 31#31: exit
+2023/12/17 13:32:54 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/12/17 13:32:54 [notice] 1#1: worker process 29 exited with code 0
+2023/12/17 13:32:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 13:32:54 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/17 13:32:54 [notice] 1#1: worker process 30 exited with code 0
+2023/12/17 13:32:54 [notice] 1#1: worker process 32 exited with code 0
+2023/12/17 13:32:54 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/17 13:32:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 13:32:54 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/17 13:32:54 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/12/17 13:32:54 [notice] 1#1: worker process 31 exited with code 0
+2023/12/17 13:32:54 [notice] 1#1: exit
+2023/12/17 13:33:21 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/17 13:33:21 [notice] 1#1: using the "epoll" event method
+2023/12/17 13:33:21 [notice] 1#1: nginx/1.25.3
+2023/12/17 13:33:21 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/17 13:33:21 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/17 13:33:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/17 13:33:21 [notice] 1#1: start worker processes
+2023/12/17 13:33:21 [notice] 1#1: start worker process 29
+2023/12/17 13:33:21 [notice] 1#1: start worker process 30
+2023/12/17 13:33:21 [notice] 1#1: start worker process 31
+2023/12/17 13:33:21 [notice] 1#1: start worker process 32
+2023/12/17 13:33:21 [notice] 1#1: start cache manager process 33
+2023/12/17 13:33:21 [notice] 1#1: start cache loader process 34
+2023/12/17 13:34:21 [notice] 34#34: http file cache: /var/mock_cdn 0.004M, bsize: 4096
+2023/12/17 13:34:21 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/17 13:34:21 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/17 13:34:21 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 13:38:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/17 13:38:03 [notice] 29#29: gracefully shutting down
+2023/12/17 13:38:03 [notice] 31#31: gracefully shutting down
+2023/12/17 13:38:03 [notice] 31#31: exiting
+2023/12/17 13:38:03 [notice] 32#32: gracefully shutting down
+2023/12/17 13:38:03 [notice] 30#30: gracefully shutting down
+2023/12/17 13:38:03 [notice] 33#33: exiting
+2023/12/17 13:38:03 [notice] 29#29: exiting
+2023/12/17 13:38:03 [notice] 29#29: exit
+2023/12/17 13:38:03 [notice] 31#31: exit
+2023/12/17 13:38:03 [notice] 32#32: exiting
+2023/12/17 13:38:03 [notice] 30#30: exiting
+2023/12/17 13:38:03 [notice] 32#32: exit
+2023/12/17 13:38:03 [notice] 30#30: exit
+2023/12/17 13:38:03 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/12/17 13:38:03 [notice] 1#1: worker process 29 exited with code 0
+2023/12/17 13:38:03 [notice] 1#1: worker process 31 exited with code 0
+2023/12/17 13:38:03 [notice] 1#1: cache manager process 33 exited with code 0
+2023/12/17 13:38:03 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 13:38:03 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/12/17 13:38:03 [notice] 1#1: worker process 30 exited with code 0
+2023/12/17 13:38:03 [notice] 1#1: worker process 32 exited with code 0
+2023/12/17 13:38:03 [notice] 1#1: exit
+2023/12/17 13:38:42 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/17 13:38:42 [notice] 1#1: using the "epoll" event method
+2023/12/17 13:38:42 [notice] 1#1: nginx/1.25.3
+2023/12/17 13:38:42 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/17 13:38:42 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/17 13:38:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/17 13:38:42 [notice] 1#1: start worker processes
+2023/12/17 13:38:42 [notice] 1#1: start worker process 29
+2023/12/17 13:38:42 [notice] 1#1: start worker process 30
+2023/12/17 13:38:42 [notice] 1#1: start worker process 31
+2023/12/17 13:38:42 [notice] 1#1: start worker process 32
+2023/12/17 13:38:42 [notice] 1#1: start cache manager process 33
+2023/12/17 13:38:42 [notice] 1#1: start cache loader process 34
+2023/12/17 13:39:42 [notice] 34#34: http file cache: /var/mock_cdn 0.012M, bsize: 4096
+2023/12/17 13:39:42 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/17 13:39:42 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/17 13:39:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/17 13:49:39 [error] 29#29: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /product HTTP/1.1", upstream: "http://192.168.65.2:7702/product", host: "localhost"
+2023/12/17 13:49:53 [error] 29#29: *17 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /product HTTP/1.1", upstream: "http://192.168.65.2:7702/product", host: "localhost"
+2023/12/18 01:06:50 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/18 01:06:50 [notice] 1#1: using the "epoll" event method
+2023/12/18 01:06:50 [notice] 1#1: nginx/1.25.3
+2023/12/18 01:06:50 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/18 01:06:50 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/18 01:06:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/18 01:06:50 [notice] 1#1: start worker processes
+2023/12/18 01:06:50 [notice] 1#1: start worker process 29
+2023/12/18 01:06:50 [notice] 1#1: start worker process 30
+2023/12/18 01:06:50 [notice] 1#1: start worker process 31
+2023/12/18 01:06:50 [notice] 1#1: start worker process 32
+2023/12/18 01:06:50 [notice] 1#1: start cache manager process 33
+2023/12/18 01:06:50 [notice] 1#1: start cache loader process 34
+2023/12/18 01:07:50 [notice] 34#34: http file cache: /var/mock_cdn 0.000M, bsize: 4096
+2023/12/18 01:07:50 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/18 01:07:50 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/18 01:07:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/18 03:15:07 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2023/12/18 03:15:07 [notice] 1#1: using the "epoll" event method
+2023/12/18 03:15:07 [notice] 1#1: nginx/1.25.3
+2023/12/18 03:15:07 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/18 03:15:07 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/18 03:15:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/18 03:15:07 [notice] 1#1: start worker processes
+2023/12/18 03:15:07 [notice] 1#1: start worker process 29
+2023/12/18 03:15:07 [notice] 1#1: start worker process 30
+2023/12/18 03:15:07 [notice] 1#1: start worker process 31
+2023/12/18 03:15:07 [notice] 1#1: start worker process 32
+2023/12/18 03:15:07 [notice] 1#1: start cache manager process 33
+2023/12/18 03:15:07 [notice] 1#1: start cache loader process 34
+2023/12/18 03:16:07 [notice] 34#34: http file cache: /var/mock_cdn 0.004M, bsize: 4096
+2023/12/18 03:16:08 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/12/18 03:16:08 [notice] 1#1: cache loader process 34 exited with code 0
+2023/12/18 03:16:08 [notice] 1#1: signal 29 (SIGIO) received

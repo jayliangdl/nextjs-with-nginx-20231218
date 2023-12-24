@@ -1,0 +1,84 @@
+
+user  nginx;
+worker_processes  auto;
+
+error_log  /var/log/nginx/error.log notice;
+pid        /var/run/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+					
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+					  
+	log_format detailed '1---$remote_addr - $remote_user [$time_local] '
+						'2---"$request" -- $status -- $body_bytes_sent '
+						'3---"$http_referer" -- "$http_user_agent" '
+						'4---$request_length -- $bytes_sent -- "$http_x_forwarded_for" '
+						'5---$request_time'
+						'6---cache_status:$upstream_cache_status';
+
+	proxy_cache_path /var/mock_cdn keys_zone=cdn_cache:10m;
+
+    access_log  /var/log/nginx/access.log  detailed;
+	
+	#proxy_cache_path /var/mock_cdn levels=1:2 keys_zone=cdn_cache:10m;
+
+
+    sendfile        on;
+
+    keepalive_timeout  65;
+
+	
+	server {
+        listen       80;
+        server_name  localhost;
+
+        #location /remote {
+        #    alias   /usr/share/nginx/mfe/remote;
+        #    index  index.html index.htm;
+        #}
+		
+		
+		
+		location / {
+            # 缓存设置
+            proxy_cache cdn_cache;
+            proxy_cache_valid 200 302 5m;
+            proxy_cache_valid 404 1m;
+			proxy_cache_key $scheme$host$request_uri;
+			#add_header X-Cache-Status $upstream_cache_status;  # 添加缓存状态头部
+			
+			add_header  Cache-Control  max-age=no-cache;
+			proxy_ignore_headers Set-Cookie Cache-Control;
+			proxy_hide_header Cache-Control;
+			proxy_hide_header Set-Cookie;
+			
+			# 首先尝试在mock_cdn目录中寻找文件
+            try_files /var/mock_cdn/$uri @proxy;
+			
+        }
+
+        location @proxy {
+            # 转发到您的 Next.js 应用程序
+            proxy_pass http://host.docker.internal:7002;
+            proxy_set_header Host $host;
+        }
+
+
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+
+
+    }
+
+    include /etc/nginx/conf.d/*.conf;
+}
