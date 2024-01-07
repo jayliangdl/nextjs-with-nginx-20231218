@@ -5,6 +5,7 @@ const nextConfig = {
   experimental: {
     esmExternals: false,
   },
+  transpilePackages: ['antd-mobile'],
   /**
    *
    * @param {import('webpack').Configuration} config

@@ -1,6 +1,6 @@
 import { useEffect,useState } from "react";
-import { Button } from 'antd-mobile';
-export default function Product(initProps){
+import { Tabs } from 'antd-mobile'
+export default function Oversea(initProps){
   
   const [customerData,setCustomerData] = new useState([]);
   useEffect(() => {
@@ -10,16 +10,30 @@ export default function Product(initProps){
     });
   }, []);
   const listItems = initProps.menu.map(menu=>
-    <li>
-      <p>{menu.menuName}</p>
-    </li>
+    // <li>
+    //   <p>{menu.menuName}</p>
+    // </li>
+    <Tabs.Tab title={menu.menuName} key={menu.menuName}>
+    {menu.menuName}
+    </Tabs.Tab>
   )
 
   return (
     <>
-    <b>菜单资料</b>：{initProps.menu ? (<ul>{listItems}</ul>) : (<div>No menu data</div>)}
+    <Tabs>
+          {/* <Tabs.Tab title='水果' key='fruits'>
+            菠萝
+          </Tabs.Tab>
+          <Tabs.Tab title='蔬菜' key='vegetables'>
+            西红柿
+          </Tabs.Tab>
+          <Tabs.Tab title='动物' key='animals'>
+            蚂蚁
+          </Tabs.Tab> */}
+          {listItems}
+    </Tabs>
+    {/* <b>菜单资料</b>：{initProps.menu ? (<ul>{listItems}</ul>) : (<div>No menu data</div>)} */}
     <b>顾客资料</b>：{customerData ? (<div><p>{customerData.name}（ada:{customerData.ada}）</p></div>) : (<div>No customer data</div>)}
-    <Button>Test Button</Button>
     </>
   )
 }
